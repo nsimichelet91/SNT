@@ -12,7 +12,6 @@ Chaque nombre s’écrit avec les 10 chiffres 0 1 2 3 4 5 6 7 8 9.
 
 Chaque chiffre correspond à un rang, qui est celui d’une puissance de 10.
 
-
 Prenons par exemple le nombre en écriture décimale $5603_d$ (le petit *d* en indice est là pour rappeler que le nombre
 est écrit en écriture décimale).
 

@@ -88,19 +88,6 @@ plugins:
  
  # - mkdocs-jupyter
 
-extra:
-  social:
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:gilles.lassus@ac-bordeaux.fr
-      name: Écrire à l'auteur
-
-    - icon: fontawesome/brands/github
-      link: https://github.com/glassus/snt
-      name: Dépôt git
-
-    - icon: fontawesome/solid/school
-      link: https://lyceemauriac.fr
-      name: Lycée François Mauriac - Bordeaux
 
 extra_javascript:
   - scripts/mathjax.js
@@ -112,10 +99,3 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - xtra/stylesheets/pyoditeur.css
-
-
-copyright:  CC BY-SA / G.Lassus
-
-repo_url: https://github.com/glassus/snt
-
-repo_name: glassus/snt

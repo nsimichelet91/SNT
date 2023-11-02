@@ -112,5 +112,5 @@ snt/docs/Introduction/binaire/binaire.md
         Comment réaliser un programme simple à embarquer dans un objet?
 
 
-Nous y rajouterons un thème transversal : «Débuter en Python».
+Nous y rajouterons un thème transversal : « Débuter en Python ».
 

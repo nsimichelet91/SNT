@@ -21,7 +21,7 @@ Les zones blanches et rouge se décomposent comme ceci :
 - Les autres secteurs sont marqués de points d'interrogation : c'est à vous de découvrir ce qu'ils cachent.
 - La phrase mystère s'obtiendra en tournant en spirale depuis la lettre D, dans le sens horaire.
 - La dernière couronne (la plus à l'extérieur) est un peu particulière, mais n'en disons pas plus...
-- [indices - document pdf à télécharger](data/mars/parachute_perseverance.pdf)
+- [Indices - document pdf à télécharger](data/mars/parachute_perseverance.pdf)
 
 ### À vous !
 

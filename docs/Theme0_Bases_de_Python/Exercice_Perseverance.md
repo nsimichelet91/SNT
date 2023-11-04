@@ -15,23 +15,13 @@ Les zones blanches et rouge se décomposent comme ceci :
 ![](data/mars/modele.png){: .center}
 
 
-
-
 ### Indications
 
 - Le tout premier secteur contenant un message est le secteur sur lequel est écrite la lettre D, qui est effectivement la signification de ce secteur. C'est en l'observant bien que vous comprendrez le codage qui a été utilisé.
 - Les autres secteurs sont marqués de points d'interrogation : c'est à vous de découvrir ce qu'ils cachent.
 - La phrase mystère s'obtiendra en tournant en spirale depuis la lettre D, dans le sens horaire.
 - La dernière couronne (la plus à l'extérieur) est un peu particulière, mais n'en disons pas plus...
-
-[indices](data/mars/parachute_perseverance.pdf)
-
-
-<object data="data/mars/parachute_perseverance.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="data/mars/parachute_perseverance.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="data/mars/parachute_perseverance.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+- [indices - document pdf à télécharger](data/mars/parachute_perseverance.pdf)
 
 ### À vous !
 

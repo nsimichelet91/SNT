@@ -24,6 +24,9 @@ Les zones blanches et rouge se décomposent comme ceci :
 - La phrase mystère s'obtiendra en tournant en spirale depuis la lettre D, dans le sens horaire.
 - La dernière couronne (la plus à l'extérieur) est un peu particulière, mais n'en disons pas plus...
 
+[indices](docs/Theme0_Bases_de_Python/data/mars/parachute_perseverance.pdf)
+
+
 <object data="docs/Theme0_Bases_de_Python/data/mars/parachute_perseverance.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="docs/Theme0_Bases_de_Python/data/mars/parachute_perseverance.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="docs/Theme0_Bases_de_Python/data/mars/parachute_perseverance.pdf">Download PDF</a>.</p>

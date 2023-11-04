@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#macro-rendering-error" class="md-skip">
+        <a href="#travailler-en-python-aspects-pratiques" class="md-skip">
           Aller au contenu
         </a>
       
@@ -763,6 +763,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Environnement de travail
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -772,6 +783,73 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-python-cest-quoi" class="md-nav__link">
+    1. Python, c'est quoi ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-quel-environnement-de-travail" class="md-nav__link">
+    2. Quel environnement de travail ?
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Quel environnement de travail ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-pour-installer-sur-son-pc-perso-thonny" class="md-nav__link">
+    2.1  Pour installer sur son pc perso : Thonny
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-directement-en-ligne-basthon" class="md-nav__link">
+    2.2 Directement en ligne : Basthon
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-directement-sur-ce-site" class="md-nav__link">
+    2.3 Directement sur ce site !
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-script-ou-console" class="md-nav__link">
+    3. Script ou console ???
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1353,35 +1431,69 @@
                   
 
 
-<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">⚓︎</a></h1>
-<p><em>File</em>: <code>Theme0_Bases_de_Python/environnement.md</code></p>
-<p><em>UndefinedError</em>: 'IDEv' is undefined</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code>Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
-    return md_template.render(**page_variables)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File &quot;/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/jinja2/environment.py&quot;, line 1301, in render
-    self.environment.handle_exception()
-  File &quot;/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/jinja2/environment.py&quot;, line 936, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File &quot;&lt;template&gt;&quot;, line 39, in top-level template code
-  File &quot;/opt/hostedtoolcache/Python/3.12.0/x64/lib/python3.12/site-packages/jinja2/utils.py&quot;, line 83, in from_obj
-    if hasattr(obj, &quot;jinja_pass_arg&quot;):
-       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-jinja2.exceptions.UndefinedError: &#39;IDEv&#39; is undefined
-</code></pre></div></td></tr></table></div>
+<h1 id="travailler-en-python-aspects-pratiques">Travailler en Python : aspects pratiques<a class="headerlink" href="#travailler-en-python-aspects-pratiques" title="Permanent link">⚓︎</a></h1>
+<h2 id="1-python-cest-quoi">1. Python, c'est quoi ?<a class="headerlink" href="#1-python-cest-quoi" title="Permanent link">⚓︎</a></h2>
+<p>C'est un langage de programmation inventé en 1991 par <a href="https://fr.wikipedia.org/wiki/Guido_van_Rossum">Guido Van Rossum</a>.</p>
+<p>Ce langage est un des langages les plus utilisés actuellement (avec le C, le Java, le Javascript ...), notamment dans le monde scientifique. Il est aussi parfaitement adapté à la découverte de la programmation, de par sa clarté et sa concision. (il a aussi bien sûr beaucoup de défauts !)</p>
+<h2 id="2-quel-environnement-de-travail">2. Quel environnement de travail ?<a class="headerlink" href="#2-quel-environnement-de-travail" title="Permanent link">⚓︎</a></h2>
+<p>Comme tous les langages de programmation, il n'existe pas <strong>un</strong> logiciel permettant de coder en Python, mais un très (très) grand nombre de logiciels différents, qu'on regroupe sous le nom d'IDE (interfaces de développement)</p>
+<p>Parmi eux, je conseille Thonny :</p>
+<h3 id="21-pour-installer-sur-son-pc-perso-thonny">2.1  Pour installer sur son pc perso : Thonny<a class="headerlink" href="#21-pour-installer-sur-son-pc-perso-thonny" title="Permanent link">⚓︎</a></h3>
+<figure>
+<p><img alt="Image title" class="center" src="../data/install_thonny.png" />
+  </p>
+<figcaption>L'interface de Thonny</figcaption>
+</figure>
+<ol>
+<li>
+<p>Rendez vous sur la page <a href="https://thonny.org/">https://thonny.org/</a></p>
+</li>
+<li>
+<p>Téléchargez et installez la version qui correspond à votre système d'exploitation (Windows, Mac, Linux).</p>
+</li>
+</ol>
+<h3 id="22-directement-en-ligne-basthon">2.2 Directement en ligne : Basthon<a class="headerlink" href="#22-directement-en-ligne-basthon" title="Permanent link">⚓︎</a></h3>
+<p>Rendez-vous sur la page <a href="https://console.basthon.fr/">https://console.basthon.fr/</a></p>
+<p><img alt="" src="../data/bast1.png" /></p>
+<h3 id="23-directement-sur-ce-site">2.3 Directement sur ce site !<a class="headerlink" href="#23-directement-sur-ce-site" title="Permanent link">⚓︎</a></h3>
+<p>Écrivez dans la fenêtre ci-dessous le code <code>print("Hello World !")</code> puis cliquez sur le triangle noir.</p>
+<div class="ide_classe"><div class="wrapper"><div class="interior_wrapper"><div id="editor_3"></div></div><div id="term_editor_3" class="term_editor"></div></div><button class="emoji" onclick='interpretACE("editor_3","v")'>▶️</button><span style="indent-text:5em"> </span><button class="emoji" onclick='download_file("editor_3","")'>⤵️</button><span style="indent-text:5em"> </span><button class="emoji" onclick="document.getElementById('input_editor_3').click()">⤴️</button>                <input type="file" id="input_editor_3" name="file" enctype="multipart/form-data" class="hide"/></div>
+<p><span id="content_editor_3" class="hide"></span><span id="corr_content_editor_3" class="hide"></span></p>
+<h2 id="3-script-ou-console">3. Script ou console ???<a class="headerlink" href="#3-script-ou-console" title="Permanent link">⚓︎</a></h2>
+<p>Thonny, comme la grande majorité des IDE Python, est composé de deux zones distinctes :</p>
+<ul>
+<li>la zone de script</li>
+<li>la console</li>
+</ul>
+<p><img alt="image" class="center" src="../data/thonny.png" width="50%" /></p>
+<p>La zone de script est <strong>asynchrone</strong>. Il ne se passera rien tant que vous n'aurez pas exécuté le script (par F5 par exemple).
+C'est donc l'endroit où on va rédiger son programme.</p>
+<p>La <strong>console</strong> est synchrone : elle répond dès que vous appuyez sur la touche Entrée. Elle sert donc aux petits tests rapides, ou bien tests post-exécution d'un code.</p>
+<div class="admonition note">
+<p class="admonition-title">Utilisation classique du couple script / console</p>
+<ol>
+<li>On écrit son code dans la zone de script</li>
+<li>On l'exécute.</li>
+<li>On interroge la console pour connaître l'état des variables, pour utiliser les fonctions construites dans le script.</li>
+</ol>
+</div>
+<p>Pour les extraits de code présents sur ce site :</p>
+<ul>
+<li>tout le code qui est précédé d'une numérotation de ligne est à écrire en zone de script.</li>
+</ul>
+<p>Exemple :
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">accueil</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+   <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+       <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;bonjour&quot;</span><span class="p">)</span> 
+</code></pre></div></td></tr></table></div></p>
+<ul>
+<li>tout le code qui est précédé <code>&gt;&gt;&gt;</code> est à taper en console.</li>
+</ul>
+<p>Exemple :
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="n">accueil</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></p>
 
   <hr>
 <div class="md-source-file">

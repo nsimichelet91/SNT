@@ -4,18 +4,13 @@
     - Bonne rentrée à toutes et à tous !
 
 
-
-:white_check_mark: Vérification des accès aux [services numériques](Introduction/services_num/index.md)
-
-:white_check_mark: Inscription à la plateforme [Moodle](Introduction/moodle/moodle/)
-
 :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
-#}
 
 
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
+	- 
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
 
 !!! note "*Anciens thèmes traités*"
@@ -51,16 +46,9 @@ snt/docs/Introduction/binaire/binaire.md
 
 -->
 
-
-
 ![image](data/logo_SNT.png){: .center width=30%}
 
-
-
 ## Programme 
-
-
-
 
 !!! abstract "Le [programme](https://eduscol.education.fr/1670/programmes-et-ressources-en-sciences-numeriques-et-technologie-voie-gt) de SNT est articulé autour de sept thèmes:"
 
@@ -70,6 +58,7 @@ snt/docs/Introduction/binaire/binaire.md
         Les données constituent la matière première de toute activité numérique. Afin de permettre leur réutilisation, il est nécessaire de les conserver de manière persistante. Les structurer correctement garantit que l’on puisse les exploiter facilement pour produire de l’information.
 
         Comment traiter ces données ?
+		
     === "Photo numérique"
 
         ![](data/logo_photo.png){align=left}
@@ -84,6 +73,7 @@ snt/docs/Introduction/binaire/binaire.md
         Grâce à sa souplesse et à son universalité, Internet est devenu le moyen de communication principal entre les hommes et avec les machines.
 
         Quels sont les techniques et protocoles qui permettent la circulation des informations sur ce réseau mondial?
+		
     === "Web"
         ![](data/logo_web.png){align=left}
 
@@ -97,13 +87,13 @@ snt/docs/Introduction/binaire/binaire.md
         Les réseaux sociaux sont des applications basées sur les technologies du Web qui offrent un service de mise en relation d’internautes pour ainsi développer des communautés d’intérêts.
 
         Comment ces réseaux gèrent les données des utilisateurs et comment mettent-ils en place les services de recommandation/suggestion?
+		
     === "Localisation /cartographie"
         ![](data/logo_carto.png){align=left}
 
         La cartographie est essentielle pour beaucoup d’activités : agriculture, urbanisme, transports, loisirs, etc. Elle a été révolutionnée par l’arrivée des cartes numériques accessibles depuis les ordinateurs, tablettes et téléphones, bien plus souples à l’usage que les cartes papier.
 
         Comment se repérer sur ces cartes et comment calculer un itinéraire?
-
 
     === "Objets connectés"
         ![](data/logo_objets.png){align=left}

@@ -164,9 +164,9 @@ maisonMalfoy =  "Gryffondor"
 
 # on procède à l'échange
 
-t = maisonHarry
+temp = maisonHarry
 maisonHarry = maisonMalfoy
-maisonMalfoy = t
+maisonMalfoy = temp
 ```
 
 Ainsi, 
@@ -209,7 +209,7 @@ L'objet de l'activité est de prendre un code pré-existant, produisant une anim
 Dans la fenêtre ci-dessous, cliquer sur le bouton Play pour démarrer l'animation.
 
 
-<iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/bd1c5be675" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Vous pouvez coder directement dans la fenêtre ci-dessus, ou bien ouvrir [ce lien](https://trinket.io/embed/python/bd1c5be675){target=_blank} dans une nouvelle fenêtre (clic-droit «Ouvrir le lien dans une nouvelle fenêtre) afin de pouvoir avoir les instructions et la fenêtre de code côte-à-côte.
 

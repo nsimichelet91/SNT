@@ -37,8 +37,8 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
 
 !!! abstract "Activité sur Capytale : modification en Python des couleurs d'une image"
-    - Connectez-vous à [LycéeConnecté](https://jeunes.nouvelle-aquitaine.fr/formation/au-lycee/lycee-connecte-ent){. target="_blank"}.
-    - Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c/d24e-741018/mlc){. target="_blank"}.
+    - Connectez-vous à [Monlycée.net](https://ent.iledefrance.fr/auth/login?callback=https%3A%2F%2Fent.iledefrance.fr%2F#/){. target="_blank"}.
+    - Cliquez sur [ce lien](https://capytale2.ac-paris.fr/web/c/77f9-2180060){. target="_blank"}.
 
 
 ??? info "la base 16 : l'hexadécimal"

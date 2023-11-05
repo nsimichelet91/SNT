@@ -10,7 +10,7 @@
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-	- [Débuter en Python](./Theme0_Bases_de_Python/environnement)
+	- [Débuter en Python](./Theme0_Bases_de_Python/environnement/)
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
 
 !!! note "*Anciens thèmes traités*"

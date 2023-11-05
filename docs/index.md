@@ -2,7 +2,7 @@
 {#
 !!! abstract ":star: Actualités :star:"
     - Bonne rentrée à toutes et à tous !
-
+#}
 
 :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
 
@@ -10,7 +10,7 @@
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-	- 
+	- [Débuter en Python](./Theme0_Bases_de_Python)
     - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
 
 !!! note "*Anciens thèmes traités*"

@@ -37,7 +37,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 
 
 !!! abstract "Activité sur Capytale : modification en Python des couleurs d'une image"
-    - [Activité 1 : modification d'une image en Python](./modification_image){. target="_blank"}.
+    - [Activité 1 : modification d'une image en Python](../modification_image){. target="_blank"}.
 
 
 ??? info "la base 16 : l'hexadécimal"

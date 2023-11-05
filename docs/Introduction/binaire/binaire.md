@@ -140,7 +140,6 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
 01010011
 01001110
 01010100
-
 #}
 
 

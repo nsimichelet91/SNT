@@ -1703,9 +1703,9 @@ Ce code va renvoyer <code>j'ai faim</code> car la condition est validée. On dit
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">hymne_anglais</span><span class="p">():</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious Queen&quot;</span><span class="p">)</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble Queen&quot;</span><span class="p">)</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our Queen&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious King&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble King&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our King&quot;</span><span class="p">)</span>
 </code></pre></div></td></tr></table></div>
 <p><strong>À remarquer :</strong>
 - les parenthèses à la fin du nom de la fonction (indispensables) : elles contiendront plus tard les paramètres de la fonction.
@@ -1715,9 +1715,9 @@ Ce code va renvoyer <code>j'ai faim</code> car la condition est validée. On dit
 <span class="normal">2</span>
 <span class="normal">3</span>
 <span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; hymne_anglais()
-God save our gracious Queen
-Long live our noble Queen
-God save our Queen
+God save our gracious King
+Long live our noble King
+God save our King
 </code></pre></div></td></tr></table></div></p>
 <p>Cette fonction n'a <strong>aucun paramètre d'entrée</strong>. Elle affichera toujours la même chose lorsqu'on l'appellera. </p>
 <h3 id="33-parametres-dune-fonction">3.3 Paramètres d'une fonction<a class="headerlink" href="#33-parametres-dune-fonction" title="Permanent link">⚓︎</a></h3>
@@ -1740,9 +1740,9 @@ Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs)
 <span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">hymne</span><span class="p">(</span><span class="n">pays</span><span class="p">):</span>
 
     <span class="k">if</span> <span class="n">pays</span> <span class="o">==</span> <span class="s2">&quot;ANG&quot;</span><span class="p">:</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious Queen&quot;</span><span class="p">)</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble Queen&quot;</span><span class="p">)</span>
-      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our Queen&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious King&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble King&quot;</span><span class="p">)</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our King&quot;</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">pays</span> <span class="o">==</span> <span class="s2">&quot;FRA&quot;</span><span class="p">:</span>
       <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Allons enfants de la patri-i-euh&quot;</span><span class="p">)</span>
@@ -1763,9 +1763,9 @@ Pour améliorer ceci, il est possible de donner à la fonction un (ou plusieurs)
 <span class="normal">12</span>
 <span class="normal">13</span>
 <span class="normal">14</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; hymne(&quot;ANG&quot;)
-God save our gracious Queen
-Long live our noble Queen
-God save our Queen
+God save our gracious King
+Long live our noble King
+God save our King
 
 &gt;&gt;&gt; hymne(&quot;FRA&quot;)
 Allons enfants de la patri-i-euh
@@ -1797,9 +1797,9 @@ Le jour de gloire est arrivé
 <span class="normal">14</span>
 <span class="normal">15</span>
 <span class="normal">16</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">hymne_anglais</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious Queen&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble Queen&quot;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our Queen&quot;</span><span class="p">)</span>    
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our gracious King&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Long live our noble King&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;God save our King&quot;</span><span class="p">)</span>
 
 
 <span class="k">def</span> <span class="nf">hymne_francais</span><span class="p">():</span>
@@ -1822,21 +1822,21 @@ Or, les fonctions peuvent être encore plus intéressantes lorsqu'on comprend qu
 <p><strong>Exemple :</strong></p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">aucarré</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">au_carre</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="n">p</span> <span class="o">=</span> <span class="n">n</span><span class="o">*</span><span class="n">n</span>
     <span class="k">return</span> <span class="n">p</span>
 </code></pre></div></td></tr></table></div>
 <p>À l'utilisation, cette fonction ne semble pas pour l'instant différente des précédentes :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
 <span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; aucarré(4)
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; au_carre(4)
 16
 &gt;&gt;&gt;
 </code></pre></div></td></tr></table></div>
-<p>Ce qu'il faut absolument comprendre, c'est que <code>aucarré(4)</code> est en fait un <strong>nombre</strong>. 
+<p>Ce qu'il faut absolument comprendre, c'est que <code>au_carre(4)</code> est en fait un <strong>nombre</strong>. 
 Et donc, je peux l'utiliser dans des calculs :</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; 12 + aucarré(5)
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>&gt;&gt;&gt; 12 + au_carre(5)
 37
 </code></pre></div></td></tr></table></div>
 <h4 id="36-application-a-un-exercice-classique-de-mathematiques">3.6 Application à un exercice classique de mathématiques<a class="headerlink" href="#36-application-a-un-exercice-classique-de-mathematiques" title="Permanent link">⚓︎</a></h4>

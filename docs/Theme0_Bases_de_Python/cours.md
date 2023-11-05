@@ -313,9 +313,9 @@ Une fonction en Python se déclare par le mot clé ```def```.
 
 ```python
 def hymne_anglais():
-      print("God save our gracious Queen")
-      print("Long live our noble Queen")
-      print("God save our Queen")
+      print("God save our gracious King")
+      print("Long live our noble King")
+      print("God save our King")
 ```
 
 **À remarquer :**
@@ -325,9 +325,9 @@ def hymne_anglais():
 **Utilisation :**
 ```
 >>> hymne_anglais()
-God save our gracious Queen
-Long live our noble Queen
-God save our Queen
+God save our gracious King
+Long live our noble King
+God save our King
 ```
 
 Cette fonction n'a **aucun paramètre d'entrée**. Elle affichera toujours la même chose lorsqu'on l'appellera. 
@@ -350,9 +350,9 @@ En Python, créons par exemple une fonction ```hymne(pays)```  :
 def hymne(pays):
     
     if pays == "ANG":
-      print("God save our gracious Queen")
-      print("Long live our noble Queen")
-      print("God save our Queen")
+      print("God save our gracious King")
+      print("Long live our noble King")
+      print("God save our King")
       
     if pays == "FRA":
       print("Allons enfants de la patri-i-euh")
@@ -363,9 +363,9 @@ Notre fonction comporte maintenant un paramètre qui va influer sur l'action de 
 
 ```
 >>> hymne("ANG")
-God save our gracious Queen
-Long live our noble Queen
-God save our Queen
+God save our gracious King
+Long live our noble King
+God save our King
 
 >>> hymne("FRA")
 Allons enfants de la patri-i-euh
@@ -387,9 +387,9 @@ Le code précédent peut aussi s'écrire de cette manière :
 
 ```python
 def hymne_anglais():
-    print("God save our gracious Queen")
-    print("Long live our noble Queen")
-    print("God save our Queen")    
+    print("God save our gracious King")
+    print("Long live our noble King")
+    print("God save our King")
 
 
 def hymne_francais():
@@ -419,7 +419,7 @@ Le mot-clé pour le renvoi d'une valeur est l'instruction ```return```.
 **Exemple :**
 
 ```python
-def aucarré(n):
+def au_carre(n):
     p = n*n
     return p
 ```
@@ -427,16 +427,16 @@ def aucarré(n):
 À l'utilisation, cette fonction ne semble pas pour l'instant différente des précédentes :
 
 ```
->>> aucarré(4)
+>>> au_carre(4)
 16
 >>>
 ``` 
 
-Ce qu'il faut absolument comprendre, c'est que ```aucarré(4)``` est en fait un **nombre**. 
+Ce qu'il faut absolument comprendre, c'est que ```au_carre(4)``` est en fait un **nombre**. 
 Et donc, je peux l'utiliser dans des calculs :
 
 ```
->>> 12 + aucarré(5)
+>>> 12 + au_carre(5)
 37
 ``` 
 

@@ -7,8 +7,9 @@ Nous allons jouer avec les pixels de l'image ci-dessous.
 
 ## 1. Ouverture de l'activité Capytale.
 
-1. Accédez à [LycéeConnecté](https://lyceeconnecte.fr/){:target="_blank"} grâce à vos identifiants Educonnect.
-2. Cliquez ensuite sur [ce lien](https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/6d13-160968). 
+1. Connectez-vous à [Monlycée.net](https://ent.iledefrance.fr/auth/login?callback=https%3A%2F%2Fent.iledefrance.fr%2F#/){. target="_blank"}.
+2. Cliquez ensuite sur [ce lien](https://capytale2.ac-paris.fr/web/c/77f9-2180060). 
+
 
 Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'activités Python.
 

@@ -50,7 +50,7 @@ Pour connaître la valeur de $\texttt{1101}_b$ en écriture décimale on peut do
 Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal.
 
 
-!!! example "{{ exercice() }}"
+!!! example "Exercice 1"
     === "Énoncé"
         1. Donner l’écriture décimale du nombre $10111_b$ .
         2. Quelle est la valeur (en écriture décimale) du plus grand nombre binaire écrit sur un octet ? (un octet = 8
@@ -68,7 +68,7 @@ Donc le nombre 1101 écrit en binaire correspond au nombre 13 écrit en décimal
         
 
 
-!!! example "{{ exercice() }}"
+!!! example "Exercice 2"
     === "Énoncé"
         Dans l'univers des Simpsons, que vaut le nombre $\texttt{63}_s$ écrit en décimal ?
     === "Correction"
@@ -92,7 +92,7 @@ Donc $243_{10}=11110011_2$
     ![image](data/div.png){: .center width=40%}
     
 
-!!! example "{{ exercice() }}"
+!!! example "Exercice 3"
     === "Énoncé"
         Donner l'écriture binaire du nombre $186_d$.
     === "Correction"
@@ -100,7 +100,7 @@ Donc $243_{10}=11110011_2$
         $186_d=10111010_b$
         
 
-!!! example "{{ exercice() }}"
+!!! example "Exercice 4"
     === "Énoncé"
         Que devient l’écriture binaire d’un nombre lorsqu’on le multiplie par 2 ?
     === "Correction"
@@ -127,7 +127,7 @@ Si on veut transmettre le mot «OK», il faut donc transmettre ces 16 bits d'inf
 Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s...
 
 
-!!! example "{{ exercice() }}"
+!!! example "Exercice 5"
     === "Énoncé"
         En vous répartissant le travail, décodez la phrase (codée en décimal) :
         74, 39, 65, 73, 77, 69, 32, 76, 69, 32, 66, 73, 78, 65, 73, 82, 69
@@ -143,7 +143,4 @@ Le débit moyen lors d'une connexion en 5G est de 450 Mb/s, soit 450 000 000 b/s
 
 #}
 
-## 4. Annexe : le message secret de Perseverance
-
-Voir [ici](https://glassus.github.io/snt/Theme0_Bases_de_Python/Exercice_Perseverance/){. target="_blank"}
 

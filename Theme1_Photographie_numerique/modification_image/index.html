@@ -870,7 +870,14 @@
     2. Modification des couleurs de l'image fleur.jpg.
   </a>
   
-    <nav class="md-nav" aria-label="2. Modification des couleurs de l'image fleur.jpg.">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-autres-filtres" class="md-nav__link">
+    3. Autres filtres
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Autres filtres">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -882,13 +889,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-modification-des-pixels-suivant-leur-couleur-dorigine" class="md-nav__link">
-    3. Modification des pixels suivant leur couleur d'origine
-  </a>
   
 </li>
       
@@ -1319,7 +1319,7 @@
 <h2 id="1-ouverture-de-lactivite-capytale">1. Ouverture de l'activité Capytale.<a class="headerlink" href="#1-ouverture-de-lactivite-capytale" title="Permanent link">⚓︎</a></h2>
 <ol>
 <li>Connectez-vous à <a class="" href="https://ent.iledefrance.fr/auth/login?callback=https%3A%2F%2Fent.iledefrance.fr%2F#/" target="_blank">Monlycée.net</a>.</li>
-<li>Cliquez ensuite sur <a href="https://capytale2.ac-paris.fr/web/c/77f9-2180060">ce lien</a>. </li>
+<li>Cliquez ensuite sur <a href="https://capytale2.ac-paris.fr/web/c/5a45-2677237">ce lien</a>. </li>
 </ol>
 <p>Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'activités Python.</p>
 <h2 id="2-modification-des-couleurs-de-limage-fleurjpg">2. Modification des couleurs de l'image <code>fleur.jpg</code>.<a class="headerlink" href="#2-modification-des-couleurs-de-limage-fleurjpg" title="Permanent link">⚓︎</a></h2>
@@ -1328,25 +1328,23 @@
 <ul>
 <li>On parcourt l'image pixel par pixel. Pour chaque pixel :</li>
 <li>On récupère ses composantes RGB dans des variables <code>r</code>, <code>g</code>, et <code>b</code>.</li>
-<li>On crée 3 nouvelles variables   <code>new_r</code>, <code>new_g</code>, et <code>new_b</code> à partir (ou pas) des valeurs originales <code>r</code>, <code>g</code>, et <code>b</code>.</li>
+<li>On crée 3 nouvelles variables   <code>new_r</code>, <code>new_g</code>, et <code>new_b</code> et on teste des permutations avec les composantes initiales  <code>r</code>, <code>g</code>, et <code>b</code>.</li>
 <li>On modifie le pixel actuel avec ces nouvelles composantes <code>new_r</code>, <code>new_g</code>, et <code>new_b</code>.</li>
 </ul>
 </div>
+<p><em>Remarque : pour les pixels blanc (255, 255, 255), les permutations n'ont aucun effet !</em>  </p>
+<h2 id="3-autres-filtres">3. Autres filtres<a class="headerlink" href="#3-autres-filtres" title="Permanent link">⚓︎</a></h2>
+<p>Manipulations à réaliser sur le notebook.  </p>
 <h3 id="si-on-souhaite-travailler-avec-sa-propre-image">Si on souhaite travailler avec sa propre image :<a class="headerlink" href="#si-on-souhaite-travailler-avec-sa-propre-image" title="Permanent link">⚓︎</a></h3>
 <p><img alt="image" class="center" src="../data/methode.png" /></p>
 <p>Cliquer sur Capytale / Fichiers annexes / Disponibles le temps de la session / Ajouter un fichier disponible le temps de la session.</p>
-<h2 id="3-modification-des-pixels-suivant-leur-couleur-dorigine">3. Modification des pixels suivant leur couleur d'origine<a class="headerlink" href="#3-modification-des-pixels-suivant-leur-couleur-dorigine" title="Permanent link">⚓︎</a></h2>
-<p>La condition «Si le pixel est blanc» se traduit dans notre code par le test :
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span> <span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">==</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">):</span>
-</code></pre></div></td></tr></table></div></p>
-<p>Essayez de modifier uniquement les pixels blancs de notre image (pour les rendre bleus, par exemple).</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">5 novembre 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">8 janvier 2024</span>
       
     
   </small>

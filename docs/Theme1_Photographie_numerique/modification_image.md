@@ -18,8 +18,8 @@ Vous êtes alors renvoyés vers le service Capytale, qui permet le partage d'act
 !!! abstract "Principe"
     - On parcourt l'image pixel par pixel. Pour chaque pixel :
     - On récupère ses composantes RGB dans des variables ```r```, ```g```, et ```b```.
-    - On crée 3 nouvelles variables   ```new_r```, ```new_g```, et ```new_b``` et on teste des permutations avec les composantes initiales  ```r```, ```g```, et ```b```.
-    - On modifie le pixel actuel avec ces nouvelles composantes ```new_r```, ```new_g```, et ```new_b```.
+    - On teste des permutations avec les composantes initiales  ```r```, ```g```, et ```b```.
+    - On modifie le pixel actuel avec ces nouvelles composantes.
 
 *Remarque : pour les pixels blanc (255, 255, 255), les permutations n'ont aucun effet !*  
 

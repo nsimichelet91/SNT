@@ -9,11 +9,9 @@ Nous sommes maintenant capables de faire (à peu près...) la même chose avec q
 
 ## 1. Les images de travail
 
-Nous travaillerons avec trois images, représentant respectivement John Travolta (image [john.bmp](data/john.bmp)), Bernie Sanders (image [bernie.bmp](data/bernie.bmp)) et Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
+Nous travaillerons avec trois images, représentant respectivement John Travolta (image [john.bmp](data/john.bmp)) et Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
 
 ![](data/john.bmp){: .center}
-
-![](data/bernie.bmp){: .center}
 
 ![](data/grumpy.bmp){: .center}
 

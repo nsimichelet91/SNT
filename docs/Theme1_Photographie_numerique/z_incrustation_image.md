@@ -15,11 +15,11 @@ Nous travaillerons avec trois images, représentant respectivement John Travolta
 
 ![](data/grumpy.bmp){: .center}
 
-Nous disposons aussi d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
+Nous disposons aussi d'une image de même taille, [lycee.png](data/hall.png):
 
-![](data/hall.png){: .center}
+![](data/lycee.png){: .center}
 
-L'objectif est bien sûr d'intégrer un des trois personnages dans le hall du lycée.
+L'objectif est bien sûr d'intégrer un des deux personnages devant le lycée.
 
 Le reste de l'activité se passe sur [Capytale](https://capytale2.ac-paris.fr/web/c/5357-2180284).
 

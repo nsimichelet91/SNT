@@ -17,7 +17,7 @@ Nous travaillerons avec trois images, représentant respectivement John Travolta
 
 Nous disposons aussi d'une image de même taille, [lycee.png](data/hall.png):
 
-![](data/lycee.png){: .center}
+![](data/lycee.jpg){: .center}
 
 L'objectif est bien sûr d'intégrer un des deux personnages devant le lycée.
 
@@ -32,7 +32,7 @@ Nous savons :
 - modifier la valeur d'un pixel (avec ```putpixel()``` )
 - faire des tests avec ```if```...
 
-Nous avons donc tous les outils nécessaires pour accueillir John Travolta  ou Bernie Sanders dans le hall du lycée : à vos claviers !
+Nous avons donc tous les outils nécessaires pour accueillir John Travolta ou Grumpy Cat au lycée : à vos claviers !
 
 **Correction**
 

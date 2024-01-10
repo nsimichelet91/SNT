@@ -184,17 +184,9 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 
 ## 5.5 Exercice
 
-1. Classez ces algorithmes dans le tableau suivant.
-
-    | A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
-    |:---:|:---:|:---:|
-    |  |  |  |
-    |  |  |  |
-    |  |  |  |
-
-2. Lequel de ces algorithmes est utilisé par Google Street View ?
-3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
-4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
+1. Lequel de ces algorithmes est utilisé par Google Street View ?
+2. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
+3. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
 
 
 !!! abstract "Conclusion :heart: :heart: :heart:"
@@ -206,26 +198,3 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     - Avant restitution de l'image numérique à l'écran, de multiples algorithmes de correction et d'amélioration de la photographie ont lieu.
     - Ces algorithmes, toujours plus évolués à mesure que la puissance des processeurs augmente, permettent de compenser les faiblesses du matériel optique (objectifs minuscules...), mais aussi les faiblesses du photographe (tremblements...)
     - On peut aussi appliquer ensuite à l'image d'autres transformations (filtres, modification des pixels), qui amènent naturellement à se poser des questions sur la confiance qu'on peut avoir dans une photographie (en matière judiciaire notamment).
-
-
-
-## 5.6 Clone detection
-
-À l'aide de la fonctionnalité Clone Detection du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection){. target="_blank"}, analysez l'image suivante :
-
-![image](data/t2.png){: .center}
-
-??? tip "solution"
-    Cette image comporte a été modifiée. L'image originale est: 
-    ![image](data/t1.png){: .center}
-    
-
-Autre image à analyser :
-
-![image](data/rugby5.png){: .center}
-
-*image originale : linternaute.com*
-
-## 5.7 Enlever un objet d'une photographie
-
-[https://clipdrop.co/fr/cleanup](https://clipdrop.co/fr/cleanup){. target="_blank"}

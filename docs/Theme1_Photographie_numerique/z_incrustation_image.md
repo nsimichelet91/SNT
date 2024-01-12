@@ -15,7 +15,7 @@ Nous travaillerons avec trois images, représentant respectivement John Travolta
 
 ![](data/grumpy.bmp){: .center}
 
-Nous disposons aussi d'une image de même taille, [lycee.png](data/hall.png):
+Nous disposons aussi d'une image de même taille, [lycee.jpg](data/lycee.jpg):
 
 ![](data/lycee.jpg){: .center}
 

@@ -46,17 +46,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://nsimichelet91.github.io/snt/Theme1_Photographie_numerique/exercices/</loc>
-         <lastmod>2024-01-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://nsimichelet91.github.io/snt/Theme1_Photographie_numerique/modification_image/</loc>
          <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nsimichelet91.github.io/snt/Theme1_Photographie_numerique/z_incrustation_image/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://nsimichelet91.github.io/snt/Theme1_Photographie_numerique/data/exercices/</loc>
          <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>

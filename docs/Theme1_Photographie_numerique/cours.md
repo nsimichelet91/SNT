@@ -84,12 +84,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 !!! example "Exercice 1"
     === "Énoncé"
         Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
-    === "Correction"
-        {#
-        $600 \times 400 = 240000$.
 
-        L'image pèse donc 240 000 octets, donc 240 Ko, donc 0,24 Mo.
-        #}
 
 !!! example "Exercice 2"
     === "Énoncé"
@@ -99,19 +94,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
         
         Est-ce que mon ami a beau temps pour ses vacances ?
 
-    === "Correction"
-        {#
-        Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
 
-        Prenons donc les 24 premiers bits : ```000011000001000111100110```.
-
-        Ils se décomposent en 3 octets : ```00001100``` ,  ```00010001``` et ```11100110```.
-
-        Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.
-
-        La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un [bleu](https://www.google.com/search?q=rgb+(12%2C17%2C230)){. target="_blank"}.  On peut donc supposer que mon ami a beau temps pour ses vacances.
-
-        #}
 
 !!! abstract "Conclusion :heart: :heart: :heart:"
     - Les écrans (téléphones, ordinateurs, télévisions) sont constitués de pixels eux-mêmes constitués de sous-pixels rouge, vert ou bleus, posés sur une dalle noire.

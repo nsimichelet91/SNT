@@ -9,19 +9,15 @@ Nous sommes maintenant capables de faire (à peu près...) la même chose avec q
 
 ## 1. Les images de travail
 
-Nous travaillerons avec trois images, représentant respectivement John Travolta (image [john.bmp](data/john.bmp)), Bernie Sanders (image [bernie.bmp](data/bernie.bmp)) et Grumpy Cat (image [grumpy.bmp](data/grumpy.bmp)).
+Nous travaillerons avec une image de John Travolta (image [john.bmp](data/john.bmp)).
 
 ![](data/john.bmp){: .center}
 
-![](data/bernie.bmp){: .center}
+Nous disposons aussi d'une image de même taille, [lycee.jpg](data/lycee.jpg):
 
-![](data/grumpy.bmp){: .center}
+![](data/lycee.jpg){: .center}
 
-Nous disposons aussi d'une image de même taille, [hall.png](data/hall.png), où vous reconnaîtrez le hall du lycée :
-
-![](data/hall.png){: .center}
-
-L'objectif est bien sûr d'intégrer un des trois personnages dans le hall du lycée.
+L'objectif est bien sûr d'intégrer John Travolta devant le lycée.
 
 Le reste de l'activité se passe sur [Capytale](https://capytale2.ac-paris.fr/web/c/5357-2180284).
 
@@ -34,7 +30,7 @@ Nous savons :
 - modifier la valeur d'un pixel (avec ```putpixel()``` )
 - faire des tests avec ```if```...
 
-Nous avons donc tous les outils nécessaires pour accueillir John Travolta  ou Bernie Sanders dans le hall du lycée : à vos claviers !
+Nous avons donc tous les outils nécessaires pour accueillir John Travolta ou Grumpy Cat au lycée : à vos claviers !
 
 **Correction**
 
@@ -42,16 +38,16 @@ Nous avons donc tous les outils nécessaires pour accueillir John Travolta  ou B
 from PIL import Image
 
 img_john = Image.open("john.bmp")
-img_hall = Image.open("hall.png")
+img_lycee = Image.open("lycee.jpg")
 
 
 for x in range(400):
     for y in range(400):
         pixel = img_john.getpixel((x,y))
         if pixel != (0, 255, 0):
-            img_hall.putpixel((x,y), pixel)
+            img_lycee.putpixel((x,y), pixel)
 
-img_hall.show()
+img_lycee.show()
 
 ```
 

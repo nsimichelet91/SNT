@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# snt
-TEST 4              
-=======
-## SNT
-Retrouvez ici les supports de cours de SNT (lycée Edmond Michelet - Arpajon)
-# Crédits
-Professeurs de SNT du François Mauriac - Bordeaux
+Ceci est le dépôt correspondant au site [https://nsimichelet91.github.io/snt/](https://nsimichelet91.github.io/snt/).
 
->>>>>>> 5d1966fbe82e9532a67c825cea274ca63a7cab41
+jean-christophe.delage [at] ac-versailles.fr
+
+Lycée Edmond Michelet / Arpajon (91)

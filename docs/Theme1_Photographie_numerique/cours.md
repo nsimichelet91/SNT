@@ -84,12 +84,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
 !!! example "Exercice 1"
     === "Énoncé"
         Si je possède une image de 600 pixels sur 400 pixels, quel est le poids (en octets, puis en Ko, puis en Mo) de cette image ? On considèrera que le fichier ne contient que les informations relatives à chaque pixel, et qu'aucun algorithme de compression n'a été utilisé.
-    === "Correction"
-        {#
-        $600 \times 400 = 240000$.
 
-        L'image pèse donc 240 000 octets, donc 240 Ko, donc 0,24 Mo.
-        #}
 
 !!! example "Exercice 2"
     === "Énoncé"
@@ -99,19 +94,7 @@ Comment ces 3 couleurs peuvent-elles générer toutes les autres couleurs ?
         
         Est-ce que mon ami a beau temps pour ses vacances ?
 
-    === "Correction"
-        {#
-        Les 3 premiers octets de cette série de bits nous donneront les valeurs R, G, B du premier pixel en haut à gauche de l'image.
 
-        Prenons donc les 24 premiers bits : ```000011000001000111100110```.
-
-        Ils se décomposent en 3 octets : ```00001100``` ,  ```00010001``` et ```11100110```.
-
-        Ils correspondent respectivement aux valeurs décimales 12, 17 et 230.
-
-        La couleur du premier pixel en haut à gauche est donc (12,17,230). Cette couleur est un [bleu](https://www.google.com/search?q=rgb+(12%2C17%2C230)){. target="_blank"}.  On peut donc supposer que mon ami a beau temps pour ses vacances.
-
-        #}
 
 !!! abstract "Conclusion :heart: :heart: :heart:"
     - Les écrans (téléphones, ordinateurs, télévisions) sont constitués de pixels eux-mêmes constitués de sous-pixels rouge, vert ou bleus, posés sur une dalle noire.
@@ -144,50 +127,13 @@ Comme évoqué précédememnt, le principe physique de fonctionnement d’un éc
 
 Pour résumer, la matrice de Bayer va convertir la lumière visible en courant électrique (plus ou moins fort) selon la quantité de lumière verte, rouge ou bleue qui aura été reçue dans les photosites: 
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/103279733?h=cb66e06da5" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Rs5ab3X9Oxo?si=2ZKMJxjoyVavMSAr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/eY4s1sVsiAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fW9bXLCooAE?si=AN0bp1ey5-ynSB1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Les photosites jouent un rôle dans la captation de la lumière,  à l’intérieur du capteur de l’appareil photo numérique, alors que les pixels de l’écran servent à reproduire cette lumière.
 Lorsque les fabricants d’appareil photo ou de smartphones communiquent sur le nombre de mégapixels, ils font référence à la définition maximale (en nombre de pixels ) que pourra avoir l’image une fois affichée.
 Ce nombre de mégapixels n’est pas égal au nombre de photosites. En effet, des procédés algorithmiques permettent maintenant de deviner de nouveaux pixels (on parle d’interpolation) non captés par les photosites.
-
-### 4.3 Analyse d'un article
-
-??? note "Extrait du site frandroid.com"
-    [lien vers l'article originel](https://www.frandroid.com/produits-android/photo/337878_galaxy-s7-samsung-opterait-pour-moins-de-megapixels-et-de-plus-gros-photosites){. target="_blank"}
-    
-    **Samsung Galaxy S7, moins de mégapixels et de plus gros photosites, pourquoi ?**
-    *Par Ulrich Rozier, le 25 janvier 2016*
-
-    Ce sont des informations qui nous proviennent de Naver, un média coréen assez bien renseigné, qui aurait recueilli des propos d’un employé Samsung. Ce dernier aurait dévoilé quelques informations sur les caractéristiques du Samsung Galaxy S7. Regardons ça de plus près.
-
-    Le Samsung sera bel et bien dévoilé au Mobile World Congress 2016, selon le média coréen. C’est la première information que l’on tire de l’article, mais ce n’est pas l’information la plus intéressante. En effet, les différentes variantes du Galaxy S7 seraient équipées d’un design « noir » bien plus premium que les dernières éditions. À l’arrière, Samsung aurait opté pour un capteur de 12 mégapixels avec une optique en ouverture f/1.7. Mais ce que nous révèle le média coréen, c’est qu’avec un capteur plus petit que le Galaxy S6 (16 mégapixels pour rappel), le Galaxy S7 aurait des photosites plus grands. Qu’est-ce que cela signifie ?
-
-    **L’importance des photosites**
-
-    En 2017, la clé du problème serait donc un morceau de silicium grand comme une pièce d’un centime d’euro, celui que l’on appelle « capteur photo ». C’est sûrement le composant qui a la plus grande influence sur la qualité des photos, un capteur qui est tapissé de millions de « photosites » qui convertissent la lumière en signal numérique. En matière de photographie, on observe que lorsqu’un photosite est grand, il produit un pixel de qualité. D’ailleurs, c’est le secret de fabrication des reflex professionnels. Donc je résume : moins de mégapixels, mais de meilleure qualité.
-
-    **Pourquoi de plus grands photosites ?**
-
-    Comme vous le savez, quand vous prenez une photo en plein jour, la lumière est abondante : difficile de remarquer une différence de qualité entre deux capteurs, cela peut se jouer avec l’optique. Mais lorsque la lumière baisse, les capteurs se différencient rapidement. Les photos affichent rapidement du « bruit », des artefacts multicolores disgracieux.
-    En optant pour de plus grands photosites, Samsung profiterait donc d’un argument de taille : une meilleure qualité de photos en basse luminosité, sans flash. C’est exactement ce que l’on a pu observer entre l’iPhone 6 et l’iPhone 6S, Apple a diminué la taille des photosites entre les deux appareils mais augmenté le nombre de pixels. Conséquence : les photos en basse luminosité étaient moins bonnes que sur l’iPhone 6. À l’inverse, Google a opté pour les Nexus 5X et Nexus 6P pour de plus grands photosites, le résultat était largement convaincant. L’autre exemple parlant : celui du HTC One M7 avec son capteur UltraPixel. L’idée était bonne sur le papier, mais avec un capteur de 4,3 mégapixels et une mauvaise intégration logicielle, HTC a finalement changé de stratégie sur les modèles suivants. [...]
-
-**Questions au sujet de cet article**
-
-1. Comment a évolué le nombre de méga-pixels entre l’iPhone 6 et l’iPhone 6S ?
-2. Quelle a été la conséquence de cette évolution ?
-3. Dans le même temps, qu’ont décidé de faire Samsung et Google ?
-4. Quel est l’avantage à avoir de plus grands photosites dans un capteur ?
-
-<!--
-??? tip "Correction"
-    1. Le nombre de méga-pixels a augmenté entre entre l’iPhone 6 et l’iPhone 6S.
-    2. La conséquence a été que les photos sont devenues de moins bonne qualité en basse luminosité.
-    3. Dans le même temps, Samsung et Google ont diminué le nombre de méga-pixels mais augmenté la taille des photosites.
-    4. Avoir de plus grands photosites permet de mieux capter la lumière en situation de faible luminosité et donc d'avoir des photos de meilleure qualité.
--->
-
 
 ## 5. Exemples d'algorithmes de traitement d'image : peut-on encore croire une photo ?
 
@@ -219,19 +165,11 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
 
 ![image](data/a4.png){: .center}
 
-## 5.5 Exercice
+### 5.5 Exercice
 
-1. Classez ces algorithmes dans le tableau suivant.
-
-    | A. Algorithmes essayant de reproduire le plus fidèlement possible une réalité | B. Algorithmes essayant d’imiter un effet artistique de la photo argentique | C. Algorithmes produisant une photo d’une situation qui n’a jamais existé |
-    |:---:|:---:|:---:|
-    |  |  |  |
-    |  |  |  |
-    |  |  |  |
-
-2. Lequel de ces algorithmes est utilisé par Google Street View ?
-3. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent. Classez-les dans le tableau ci-dessus.
-4. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
+1. Lequel de ces algorithmes est utilisé par Google Street View ?
+2. Citez et décrivez les algorithmes (filtres) que vous utilisez le plus souvent.
+3. Dans quelle mesure peut-on encore considérer qu’une photographie est une preuve ?
 
 
 !!! abstract "Conclusion :heart: :heart: :heart:"
@@ -243,26 +181,3 @@ Cet algorithme compense les déformations optiques dues aux lentilles de l'objec
     - Avant restitution de l'image numérique à l'écran, de multiples algorithmes de correction et d'amélioration de la photographie ont lieu.
     - Ces algorithmes, toujours plus évolués à mesure que la puissance des processeurs augmente, permettent de compenser les faiblesses du matériel optique (objectifs minuscules...), mais aussi les faiblesses du photographe (tremblements...)
     - On peut aussi appliquer ensuite à l'image d'autres transformations (filtres, modification des pixels), qui amènent naturellement à se poser des questions sur la confiance qu'on peut avoir dans une photographie (en matière judiciaire notamment).
-
-
-
-## 5.6 Clone detection
-
-À l'aide de la fonctionnalité Clone Detection du site [https://29a.ch/photo-forensics/#clone-detection](https://29a.ch/photo-forensics/#clone-detection){. target="_blank"}, analysez l'image suivante :
-
-![image](data/t2.png){: .center}
-
-??? tip "solution"
-    Cette image comporte a été modifiée. L'image originale est: 
-    ![image](data/t1.png){: .center}
-    
-
-Autre image à analyser :
-
-![image](data/rugby5.png){: .center}
-
-*image originale : linternaute.com*
-
-## 5.7 Enlever un objet d'une photographie
-
-[https://clipdrop.co/fr/cleanup](https://clipdrop.co/fr/cleanup){. target="_blank"}

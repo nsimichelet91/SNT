@@ -83,83 +83,83 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 !!! example "Fonctionnement du GPS"
 	
 	1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou n'envoie-t-il rien du tout ?
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Un smartphone **n'envoie rien**. Il ne fait que recevoir des signaux.
 		"""
 		)
 		}}
 		-->
 	2. Que reçoit-il d’un satellite ?
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Il reçoit d'un satellite un message contenant la désignation du satellite et l'heure d'envoi du message. 
 		"""
 		)
 		}}
 				-->
 	3. Comment calcule-t-il sa distance avec un satellite ? 
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			En calculant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
 		"""
 		)
 		}}		-->
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
 		"""
 		)
 		}}		-->
 	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Tous les points à la même distance d'un satellite sont situés sur une sphère.
 		"""
 		)
 		}}		-->
 	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
 		"""
 		)
 		}}		-->
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Le smartphone doit capter au minimum 4 satellites.
 		"""
 		)
 		}}		-->
 	8. Quel est le rôle du dernier satellite nécessaire ?
-	<!--
+	<!---
 		{{
-		tototo(False,
+		correction(False,
 		"""
-		??? success \"tototo\" 
+		??? success \"Correction\" 
 			Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
 		"""
 		)
@@ -176,11 +176,11 @@ Intersection de 3 sphères :
 	Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.  
 	À quelle distance du satellite S suis-je ?  
 	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
-<!--
+<!---
 	{{
-	tototo(False,
+	correction(False,
 	"""
-	??? success \"tototo\" 
+	??? success \"Correction\" 
 		$300000 \\times 0,071 = 21300$  
 
 		Le satellite est à 21300 km au dessus de moi.		
@@ -267,7 +267,7 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 	- les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.
 
 
-<!-- ??? abstract "tototo DS GPS"
+<!--- ??? abstract "Correction DS GPS"
 	voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
  -->
 
@@ -327,7 +327,7 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 	Trouvons le plus court chemin entre le point A et le point H :
 	![image](data/exdijk.png){: .center width=60%}
 
-	??? tip "tototo vidéo"
+	??? tip "Correction vidéo"
 		<p align="center">
 		<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</p>
@@ -344,5 +344,5 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
         Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
         ![image](data/graph2.png){: .center width=60%}
 
-	=== "tototo"
+	=== "Correction"
 		![image](data/corr_dk.png){: .center width=60%}

@@ -34,29 +34,7 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
     | 11 | 60° N | 11° E|
     | 12 | 37° N | 10° E|
 
-    {{
-    correction(True,
-    """
-    ??? success \"Correction\" 
-        | numéro de la ville | Ville |
-        |:---:|---|
-        | 1 | Londres|
-        | 2 | Paris|
-        | 3 | Madrid|
-        | 4 | New-York|
-        | 5 | Moscou|
-        | 6 | Quito|
-        | 7 | Le Cap|
-        | 8 | Santiago|
-        | 9 | Sydney|
-        | 10 | Wellington|
-        | 11 | Oslo|
-        | 12 | Tunis|
 
-        La ville manquante est donc Pékin       
-    """
-    )
-    }}
 
 
 [https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html](https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html){. target="_blank"}   
@@ -98,21 +76,6 @@ Il existe des sites en ligne qui proposent de manipuler très facilement des coo
 !!! example "Exercice 2"
     
     1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
-        {{
-        correction(False,
-        """
-        ??? success \"Correction\" 
-            La salle 1308 du Lycée François Mauriac.
-        """
-        )
-        }}
 
     2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
-        {{
-        correction(False,
-        """
-        ??? success \"Correction\" 
-            La statue de la Liberté.
-        """
-        )
-        }}
+

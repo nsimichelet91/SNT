@@ -83,6 +83,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 !!! example "Fonctionnement du GPS"
 	
 	1. Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou n'envoie-t-il rien du tout ?
+	<!--
 		{{
 		correction(False,
 		"""
@@ -91,7 +92,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		"""
 		)
 		}}
+		-->
 	2. Que reçoit-il d’un satellite ?
+	<!--
 		{{
 		correction(False,
 		"""
@@ -100,7 +103,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 		"""
 		)
 		}}
+				-->
 	3. Comment calcule-t-il sa distance avec un satellite ? 
+	<!--
 		{{
 		correction(False,
 		"""
@@ -108,8 +113,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			En calculant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule $d = V \\times t$)
 		"""
 		)
-		}}
+		}}		-->
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
+	<!--
 		{{
 		correction(False,
 		"""
@@ -117,8 +123,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			Une horloge atomique assure la précision de l'heure à bord du satellite.
 		"""
 		)
-		}}
+		}}		-->
 	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
+	<!--
 		{{
 		correction(False,
 		"""
@@ -126,8 +133,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			Tous les points à la même distance d'un satellite sont situés sur une sphère.
 		"""
 		)
-		}}
+		}}		-->
 	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
+	<!--
 		{{
 		correction(False,
 		"""
@@ -135,8 +143,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.
 		"""
 		)
-		}}
+		}}		-->
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
+	<!--
 		{{
 		correction(False,
 		"""
@@ -144,8 +153,9 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			Le smartphone doit capter au minimum 4 satellites.
 		"""
 		)
-		}}
+		}}		-->
 	8. Quel est le rôle du dernier satellite nécessaire ?
+	<!--
 		{{
 		correction(False,
 		"""
@@ -153,7 +163,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 			Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. 
 		"""
 		)
-		}}
+		}}		-->
 
 
 
@@ -166,7 +176,7 @@ Intersection de 3 sphères :
 	Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.  
 	À quelle distance du satellite S suis-je ?  
 	*On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s*
-
+<!--
 	{{
 	correction(False,
 	"""
@@ -176,7 +186,7 @@ Intersection de 3 sphères :
 		Le satellite est à 21300 km au dessus de moi.		
 	"""
 	)
-	}}
+	}}		-->
 
 
 

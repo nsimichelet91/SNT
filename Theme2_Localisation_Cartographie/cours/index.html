@@ -85,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#theme-2-localisation-et-cartographie" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Aller au contenu
         </a>
       
@@ -885,17 +885,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Cours
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -905,114 +894,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-coordonnees-geographiques" class="md-nav__link">
-    1. Coordonnées géographiques
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-gps" class="md-nav__link">
-    2. GPS
-  </a>
-  
-    <nav class="md-nav" aria-label="2. GPS">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#21-fonctionnement" class="md-nav__link">
-    2.1 Fonctionnement
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#22-questions" class="md-nav__link">
-    2.2 Questions
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea" class="md-nav__link">
-    2.3 De la puce GPS aux applications du téléphone : la trame NMEA
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-services-de-cartographie" class="md-nav__link">
-    3. Services de cartographie
-  </a>
-  
-    <nav class="md-nav" aria-label="3. Services de cartographie">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#31-optimisation-ditineraire" class="md-nav__link">
-    3.1 Optimisation d'itinéraire
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#311-premiere-metrique" class="md-nav__link">
-    3.1.1 Première métrique
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#312-seconde-metrique" class="md-nav__link">
-    3.1.2 Seconde métrique
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#313-les-parcours-sur-un-graphe" class="md-nav__link">
-    3.1.3 Les parcours sur un graphe
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra" class="md-nav__link">
-    3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1348,180 +1229,9 @@
                   
 
 
-<h1 id="theme-2-localisation-et-cartographie">Thème 2 : Localisation et cartographie<a class="headerlink" href="#theme-2-localisation-et-cartographie" title="Permanent link">⚓︎</a></h1>
-<h2 id="1-coordonnees-geographiques">1. Coordonnées géographiques<a class="headerlink" href="#1-coordonnees-geographiques" title="Permanent link">⚓︎</a></h2>
-<p>Tout point de la Terre se situe à l'intersection de deux cercles: un <strong>parallèle</strong> (à l'Équateur) et un <strong>méridien</strong> (cercle passant par les pôles).</p>
-<p><img alt="" class="center" src="../data/coordonneesgeo.png" /></p>
-<p>Ces cercles forment des angles par rapport au centre de la Terre : la latitude et la longitude. Ces angles sont les coordonnées géographiques (ou GPS par abus de langage) de ce point.</p>
-<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/27a1.svg" title=":arrow_right:" /> <a class="" href="https://www.geogebra.org/m/qfuyanqs" target="_blank">animation GeoGebra sur la latitude et la longitude</a></p>
-<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/27a1.svg" title=":arrow_right:" /> <a class="" href="../Activité1_GPS/" target="_blank">Activité 1 : villes du monde</a></p>
-<p>Les angles se mesurent en degrés, soit au format décimal (avec en général au moins 6 chiffres après la virgule) ou bien en subdivisions de degrés: la minute d'arc qui vaut 1/60 de degré et la seconde d'arc qui vaut 1/60 de minute.</p>
-<p>Pour un même lieu, il y a donc plusieurs formats d'écriture de ses coordonnées. Les deux principaux sont:</p>
-<ul>
-<li>Degrés, minutes, secondes (DMS): par exemple 45° 26' 14'' N , 12° 20' 5'' E</li>
-<li>Degrés décimaux (DD): par exemple 45.4372222, 12.3347222</li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Quelques exemples</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;"></th>
-<th style="text-align: center;">Paris</th>
-<th style="text-align: center;">New-York</th>
-<th style="text-align: center;">Rio de Janeiro</th>
-<th style="text-align: center;">Sydney</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">DMS</td>
-<td style="text-align: center;">48°51'24.11" N, 2°21'5.26" E</td>
-<td style="text-align: center;">40°42'45.2" N, 74°0'21.65" O</td>
-<td style="text-align: center;">22°54'39.6" O, 43°12'33.84" S</td>
-<td style="text-align: center;">33°51'22" S, 151°11'33" E</td>
-</tr>
-<tr>
-<td style="text-align: center;">DD</td>
-<td style="text-align: center;">48.856697, 2.351461</td>
-<td style="text-align: center;">40.704222, -74.006014</td>
-<td style="text-align: center;">-22.911 , -43.2094</td>
-<td style="text-align: center;">-33.8561, 151.1925</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>On peut retrouver ces coordonnées dans l'url du site <code>googlemaps</code> lors d'une navigation :</p>
-<p><img alt="image" class="center" src="../data/cap_paris.png" /></p>
-<div class="admonition info">
-<p class="admonition-title">Conversions</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">de DMS vers DD</label><label for="__tabbed_1_2">de DD vers DMS</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>Prenons par exemple la latitude de Paris. On obtient en degrés 48+51/60+24.11/3600 = 48.856697</p>
-<p>On compte positivement car la position par rapport à l'Équateur est N pour Nord (on compte négativement pour une position S pour Sud, comme Rio ou Sydney).</p>
-<p>Prenons par exemple la longitude de New-York. On obtient en degrés 74+0/60+21.65/3600 = 74.006014</p>
-<p>On compte négativement  car la position par rapport au méridien de Greenwich est O pour Ouest (on compte positivement pour une position E pour Est, comme Paris ou Sydney).</p>
-</div>
-<div class="tabbed-block">
-<p>Prenons par exemple la latitude de Rio de Janeiro : -22.911</p>
-<ul>
-<li>Le signe moins indique que la position est S</li>
-<li>La partie entière donne les degrés (22)</li>
-<li>On multiplie la partie décimale par 60 : 0.911x60=54.66 dont la partie entière donne les minutes (54)</li>
-<li>On recommence avec la partie décimale du précédent pour obtenir les secondes : 0.66x60=39.6</li>
-</ul>
-<p>On obtient donc en DMS 22°54'39.6" S.</p>
-</div>
-</div>
-</div>
-</div>
-<!--    === "Avec Python"-->
-<!--        On peut créer des fonctions pour automatiser ces calculs:-->
-<!--        -->
-
-<h2 id="2-gps">2. GPS<a class="headerlink" href="#2-gps" title="Permanent link">⚓︎</a></h2>
-<h3 id="21-fonctionnement">2.1 Fonctionnement<a class="headerlink" href="#21-fonctionnement" title="Permanent link">⚓︎</a></h3>
-<p style="text-align: center;">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iTfNhcC2vBA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e79tSIpLiDk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-
-<h3 id="22-questions">2.2 Questions<a class="headerlink" href="#22-questions" title="Permanent link">⚓︎</a></h3>
-<div class="admonition example">
-<p class="admonition-title">Exercice</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Fonctionnement du GPS</label><label for="__tabbed_2_2">Réponses</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ol>
-<li>
-<p>Pour indiquer sa position à l’utilisateur, un smartphone envoie-t-il une demande au réseau, à un central, à un satellite ou plusieurs ? (attention il y a un piège)</p>
-</li>
-<li>
-<p>Que reçoit-il d’un satellite ?</p>
-</li>
-<li>
-<p>Comment calcule-t-il sa distance avec un satellite ? </p>
-</li>
-<li>
-<p>Quel matériel embarqué sur le satellite assure la précision ? </p>
-</li>
-<li>
-<p>Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? </p>
-</li>
-<li>
-<p>Quelle est l’intersection de deux sphères ? De trois sphères ?</p>
-</li>
-<li>
-<p>Combien de satellites au minimum le smartphone doit-il capter ?</p>
-</li>
-<li>
-<p>Quel est le rôle du dernier satellite nécessaire ?</p>
-</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>Un smartphone <strong>n'envoie rien</strong>. Il ne fait que recevoir des signaux.</li>
-<li>Il reçoit d'un satellite un message contenant la position du satellite et l'heure d'envoi du message. </li>
-<li>En mesurant le temps mis par le message à parvenir jusqu'à lui, le récepteur GPS calcule la distance qui les sépare (grâce à la formule <span class="arithmatex">\(d = V \times t\)</span>)</li>
-<li>Une horloge atomique assure la précision de l'heure à bord du satellite.</li>
-<li>Tous les points à la même distance d'un satellite sont situés une sphère.</li>
-<li>L'intersection de deux sphères est un cercle. L'intersection de trois sphères est 2 points.</li>
-<li>Le smartphone doit capter au minimum 4 satellites.</li>
-<li>Le 4ème satellite sert à prendre en compte le décalage de l'horloge du smartphone par rapport à celle des satellites. </li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<p>Intersection de 3 sphères :
-<img alt="image" class="center" src="../data/3spheres.png" width="40%" /></p>
-<div class="admonition example">
-<p class="admonition-title">Exercice de calcul de distance</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label><label for="__tabbed_3_2">Correction</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>Supposons que le signal d'un satellite S ait mis 0,071 secondes à me parvenir.<br />
-À quelle distance du satellite S suis-je ?<br />
-<em>On considèrera que le signal envoyé par le satellite a une vitesse de 300 000 km/s</em></p>
-</div>
-<div class="tabbed-block">
-<p><span class="arithmatex">\(300000 \times 0,071 = 21300\)</span>  </p>
-<p>Le satellite est à 21300 km au dessus de moi.</p>
-</div>
-</div>
-</div>
-</div>
-<details class="tip">
-<summary>Application smartphone</summary>
-<p>L'application Satstat permet de repérer les satellites en communication avec le smartphone et d'obtenir des informations complètes de localisation.</p>
-<p><img alt="" class="center" src="../data/satstat.png" /> </p>
-</details>
-<div class="admonition example">
-<p class="admonition-title">Exercice d'analyse critique d'une vidéo</p>
-<p><center>
-<video controls>
-    <source src="https://glassus.github.io/snt/Theme2_Localisation_Cartographie/data/car.mp4" type="video/mp4">
-</video>
-</center>
-Cette vidéo, postée fin novembre 2022 sur les réseaux sociaux, est rapidement devenue virale. Pourtant, son authenticité semble très douteuse. Pourquoi ?</p>
-</div>
-<h3 id="23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea">2.3 De la puce GPS aux applications du téléphone : la trame NMEA<a class="headerlink" href="#23-de-la-puce-gps-aux-applications-du-telephone-la-trame-nmea" title="Permanent link">⚓︎</a></h3>
-<p><img alt="image" class="center" src="../data/puceGPS.png" width="20%" /></p>
-<p>La puce GPS ci-dessus (puce d'une iPhone 6) possède les capacités de calcul (dans son microprocesseur) pour déterminer elle-même les coordonnées GPS. Mais il faut ensuite transmettre ces coordonnées à la puce centrale du téléphone (qui est en fait un véritable ordinateur, muni d'un système d'exploitation).<br />
-Ainsi toutes les applications ayant recours à la géolocalisation (et elles sont nombreuses) vont «demander» les coordonnées GPS à la puce dédiée qui va les leur fournir en envoyant une <strong>trame</strong> : la <a href="https://fr.wikipedia.org/wiki/NMEA_0183" target="_blank">trame NMEA 0183</a>.</p>
-<p><img alt="" class="center" src="../data/trameNMEA.png" /> 
-<img alt="image" class="center" src="../data/trame_exp.png" /></p>
-<details class="tip">
-<summary>Application smartphone</summary>
-<p>L'application <strong>NMEA Tools</strong> permet d'enregistrer et de sauvegarder des trames NMEA. Important pour récupérer la trace d'un trajet effectué.</p>
-<p><img alt="" class="center" src="../data/NMEATools1.png" width="100%" /> </p>
-</details>
-<details class="tip">
-<summary>Extrait d'un flot de transmission de trames NMEA</summary>
+<h1 id="macro-rendering-error"><em>Macro Rendering Error</em><a class="headerlink" href="#macro-rendering-error" title="Permanent link">⚓︎</a></h1>
+<p><em>File</em>: <code>Theme2_Localisation_Cartographie/cours.md</code></p>
+<p><em>UndefinedError</em>: 'correction' is undefined</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
 <span class="normal"> 2</span>
 <span class="normal"> 3</span>
@@ -1534,151 +1244,27 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 <span class="normal">10</span>
 <span class="normal">11</span>
 <span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="hll">$GPGGA,082948.0,,,,,0,,,,,,,,*77
-</span>$GPVTG,,T,,M,,N,,K,N*2C
-$GPRMC,,V,,,,,,,,,,N*53
-$GPGSA,A,1,,,,,,,,,,,,,,,*1E
-$GNGSA,A,1,,,,,,,,,,,,,,,*00
-$GPGSV,3,1,10,12,36,213,33,13,34,135,26,15,64,172,25,24,66,303,14*7C
-$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
-$GPGSV,3,3,10,20,24,275,,28,11,043,*71
-$GLGSV,3,1,09,67,25,180,25,68,63,246,12,78,68,323,,86,12,022,*60
-$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
-$GLGSV,3,3,09,87,18,080,*52
-<span class="hll">$GPGGA,082949.0,4445.565178,N,00037.248152,W,1,04,1.9,34.7,M,50.0,M,,*7C
-</span>$GPVTG,,T,,M,,N,,K,N*2C
-$GPRMC,082949.0,A,4445.565178,N,00037.248152,W,,,300419,0.0,E,A*13
-$GPGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*3A
-$GNGSA,A,2,12,13,15,24,,,,,,,,,2.1,1.9,1.0*24
-$GNGSA,A,2,67,68,,,,,,,,,,,2.1,1.9,1.0*28
-$GPGSV,3,1,10,12,36,213,31,13,34,135,27,15,64,172,25,24,66,303,14*7F
-$GPGSV,3,2,10,25,02,222,13,10,21,306,,17,30,070,,19,30,099,*72
-$GPGSV,3,3,10,20,24,275,,28,11,043,*71
-$GLGSV,3,1,09,67,25,180,23,68,63,246,12,78,68,323,,86,12,022,*66
-$GLGSV,3,2,09,77,34,046,,79,27,258,,69,33,322,,88,04,122,*65
-$GLGSV,3,3,09,87,18,080,*52
-<span class="hll">$GPGGA,082950.0,4445.563885,N,00037.249286,W,1,04,1.9,43.7,M,50.0,M,,*72
-</span></code></pre></div></td></tr></table></div>
-<p>Il nous faut observer les trames <strong>GPPGA</strong> :</p>
-<ul>
-<li>la trame 1 est incomplète : la puce n'a pas encore reçu assez de messages des satellites pour commencer ses calculs.</li>
-<li>les trames 12 et 24 sont complètes : on peut y lire les coordonnées GPS.</li>
-</ul>
-</details>
-<details class="abstract">
-<summary>Activité 1 : coordonnées GPS</summary>
-<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité1_GPS/">ici</a></p>
-</details>
-<!-- ??? abstract "Correction DS GPS"
-    voir [ici](../../Theme2_Localisation_Cartographie/data/SNT_eval_GPS_corr.pdf)
- -->
-
-<details class="abstract">
-<summary>Activité 2 : métadonnées EXIF</summary>
-<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité2_Exif/">ici</a></p>
-</details>
-<h2 id="3-services-de-cartographie">3. Services de cartographie<a class="headerlink" href="#3-services-de-cartographie" title="Permanent link">⚓︎</a></h2>
-<p><strong>Géoportail</strong>  est  un  site  public  français permettant l’accès à  des  données  géographiques  ou  géolocalisées. L’utilisateur peut superposer sur un fond de carte (carte de l’Institut national de l’information géographique et forestière, photographie aérienne, carte du relief) différents couches de données(carte des transports, emplacement  des hôpitaux,  départements,  etc...) de  manière  à  créer  une  carte  numérique  personnalisée. Géoportail permet aussi la localisation, le calcul de distances, de surfaces et d’itinéraires.</p>
-<p><strong>OpenStreetMap</strong>  est un service  de  cartographie  libre  et  collaboratif  qui  permet  de visualiser, de modifier et d’utiliser des données géographiques. Il propose également le calcul  d’itinéraire.  Chacun  peut  contribuer  à OpenStreetaMap  en ajoutant  des informations manquantes on en corrigeant des erreurs.</p>
-<details class="abstract">
-<summary>Activité 3 : GéoPortail</summary>
-<p>voir <a href="../../Theme2_Localisation_Cartographie/Activité3_GeoPortail/">ici</a></p>
-</details>
-<h3 id="31-optimisation-ditineraire">3.1 Optimisation d'itinéraire<a class="headerlink" href="#31-optimisation-ditineraire" title="Permanent link">⚓︎</a></h3>
-<p>Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
-qu’il peut emprunter.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">Carte</th>
-<th style="text-align: center;">Graphe</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;"><img alt="image" class="center" src="../data/carte_globale.png" width="60%" /></td>
-<td style="text-align: center;"><img alt="image" class="center" src="../data/graphe_vide.png" width="60%" /></td>
-</tr>
-</tbody>
-</table>
-<h3 id="311-premiere-metrique">3.1.1 Première métrique<a class="headerlink" href="#311-premiere-metrique" title="Permanent link">⚓︎</a></h3>
-<ol>
-<li>Compléter le graphe avec les noms de villes manquants.</li>
-<li>Quel est le chemin le plus court ?</li>
-</ol>
-<h3 id="312-seconde-metrique">3.1.2 Seconde métrique<a class="headerlink" href="#312-seconde-metrique" title="Permanent link">⚓︎</a></h3>
-<p>La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
-130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
-autorisée : 80 km/h). </p>
-<ol>
-<li>Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
-l’automobiliste roule à la vitesse maximale autorisée.</li>
-<li>Quel est le chemin le plus rapide ?</li>
-</ol>
-<h3 id="313-les-parcours-sur-un-graphe">3.1.3 Les parcours sur un graphe<a class="headerlink" href="#313-les-parcours-sur-un-graphe" title="Permanent link">⚓︎</a></h3>
-<p>La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
-Il y a des choses que l'on sait... et d'autres que l'on cherche encore !</p>
-<ul>
-<li><strong>Ce que l'on sait :</strong> trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)</li>
-<li><strong>Ce que l'on ne sait pas encore:</strong> trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du <a .target="_blank" href="https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce">voyageur de commerce</a>.<br />
-Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez les chercher, pas comme <a .target="_blank" href="https://fr.wikipedia.org/wiki/Grigori_Perelman">Grigori Perelman</a>)</li>
-</ul>
-<h3 id="313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra">3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.<a class="headerlink" href="#313-comment-trouver-le-chemin-le-plus-court-dans-un-graphe-algorithme-de-dijkstra" title="Permanent link">⚓︎</a></h3>
-<p>Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.</p>
-<div class="admonition example">
-<p class="admonition-title">Exemple</p>
-<p>Trouvons le plus court chemin entre le point A et le point H :
-<img alt="image" class="center" src="../data/exdijk.png" width="60%" /></p>
-<details class="tip">
-<summary>Correction vidéo</summary>
-<p><p align="center">
-<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p></p>
-</details>
-</div>
-<div class="admonition example">
-<p class="admonition-title">Exercice</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
-<img alt="image" class="center" src="../data/graph.png" width="60%" /></p>
-</div>
-</div>
-</div>
-</div>
-<div class="admonition example">
-<p class="admonition-title">Exercice</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label><label for="__tabbed_5_2">Correction</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
-<img alt="image" class="center" src="../data/graph2.png" width="60%" /></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="image" class="center" src="../data/corr_dk.png" width="60%" /></p>
-</div>
-</div>
-</div>
-</div>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code>Traceback (most recent call last):
+  File &quot;/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/mkdocs_macros/plugin.py&quot;, line 527, in render
+    return md_template.render(**page_variables)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/jinja2/environment.py&quot;, line 1301, in render
+    self.environment.handle_exception()
+  File &quot;/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/jinja2/environment.py&quot;, line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File &quot;&lt;template&gt;&quot;, line 87, in top-level template code
+  File &quot;/opt/hostedtoolcache/Python/3.12.1/x64/lib/python3.12/site-packages/jinja2/utils.py&quot;, line 83, in from_obj
+    if hasattr(obj, &quot;jinja_pass_arg&quot;):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: &#39;correction&#39; is undefined
+</code></pre></div></td></tr></table></div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Dernière mise à jour:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">25 octobre 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">29 janvier 2024</span>
       
     
   </small>

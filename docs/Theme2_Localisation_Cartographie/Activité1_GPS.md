@@ -39,6 +39,8 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
 
 [https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html](https://www.partir.com/carte/des-cartes-pour-comprendre-le-monde.html){. target="_blank"}   
 
+[ :arrow_right: Cours](../cours/){ .md-button }
+
 ## 2. Les différentes conventions d'écriture d'angles
 
 

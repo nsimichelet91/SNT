@@ -42,7 +42,7 @@ Latitude, longitude, méridiens, parallèles... rendez-vous sur
 ## 2. Les différentes conventions d'écriture d'angles
 
 
-![](data/bordeaux.png){align=right}
+![](data/Arpajon.PNG){align=right}
 
 Numériquement parlant, le format décimal (DD) des coordonnées géographiques est le plus pratique.
 
@@ -57,9 +57,9 @@ Par exemple, les coordonnées des villes sur Wikipedia sont données au format D
 
     La latitude de Bordeaux, en décimal, est donc obtenue par le calcul:
     
-    44 + 50/60 + 16/3600 = 44,837777
+    48 + 35/60 + 25/3600 = 48,590277
 
-    Enfin, cette latitude est positive car sa position par rapport à l'équateur est Nord. Une latitude 44°50'16'' S serait donc convertie -44,837777 en décimal.
+    Enfin, cette latitude est positive car sa position par rapport à l'équateur est Nord. Une latitude 48°35'25'' S serait donc convertie -48,580277 en décimal.
 
 !!! warning "Point ou virgule"
     Il ne faut pas confondre notre séparateur décimal, **la virgule**, avec celui des anglo-saxons, **le point**, qui est la norme sur tout système informatique.
@@ -75,7 +75,7 @@ Il existe des sites en ligne qui proposent de manipuler très facilement des coo
 
 !!! example "Exercice 2"
     
-    1. Que trouve-t-on aux coordonnées : 44.83887 / -0.55537 ?
+    1. Que trouve-t-on aux coordonnées : 48.58696831023527, 2.2473178113604058 ?
 
     2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
 

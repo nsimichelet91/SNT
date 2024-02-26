@@ -27,18 +27,20 @@ Recherchez le numéro de la parcelle cadastrale de votre domicile. Mesurez la su
 <iframe width="696" height="390" src="https://www.youtube.com/embed/rbl2sF7zugk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 2.2.2 Gêne sonore
-Monsieur X veut acheter une maison au 66 avenue du Maréchal Juin, à Biarritz. Mais il ne supporte pas le bruit. Que lui conseillez-vous ?
+Monsieur X veut acheter une maison au 22 chemin de Chilly à Champlan. Mais il ne supporte pas le bruit. Que lui conseillez-vous ?
+
 
 #### 2.2.3 Drone de loisirs
-Madame Y habite au domaine de Lisenne, à Tresses (33). Elle possède un drone de loisir et souhaite le faire voler à une altitude d’environ 60 mètres. En a-t-elle le droit ?
+Madame Y possède un drone de loisir et souhaite le faire voler au Bois du Pré à Chaiptainville à une altitude d’environ 60 mètres. En a-t-elle le droit ? Sinon à quelle altitude est-elle limitée ? 
+
 
 #### 2.2.4 Bureau de Poste
-Monsieur Z habite 12 rue des églantiers à Cenon (33). Il veut savoir s'il peut aller à pied à un bureau de Poste en moins de 15 minutes. Pouvez-vous l'aider ?
-(on pensera au clic-droit / *isochrone*)
+Monsieur Z habite 5 allée des érables à Marolles en Hurepoix. Il veut savoir s'il peut aller à pied à un bureau de Poste en moins de 15 minutes. Pouvez-vous l'aider et lui indiquer l'adresse du bureau de poste ?
+(outil utile : clic-droit / Isochrone depuis ce lieu)
 
 
 #### 2.2.5 Au XIXème siècle
-Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive droite de Bordeaux ?
+Au XIXe siècle, comment appelait-on le champ sur lequel est aujourd'hui construit le Lycée ?  
 
 {#
 ??? tip "Corrections"
@@ -50,15 +52,15 @@ Au XIXe siècle, comment appelait-on l’actuelle Avenue Thiers, sur la rive dro
 
 ### 2.3 Recherche de renseignements en source ouverte ([OSINT](https://www.lesassisesdelacybersecurite.com/Le-blog/Glossaire/Open-Source-Intelligence-OSINT){. target="_blank"})
 #### 2.3.1 Énigme 1
-1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 44.829439 , -0.879641 ?
-2. À proximité de cette zone, trouver une zone interdite à la prise de vue aérienne de forme triangulaire.
-3. Que s'est-il passé à cet endroit durant la Seconde Guerre mondiale ?
+1. Ai-je le droit de prendre une photo aérienne de l’endroit aux coordonnées GPS : 48.59720341938274, 2.2030987620155575 ?
+2. Que trouve-t-on à ces coordonnées ?
+3. Quelles-en sont les activités ?
 
 {#
 ??? tip "Corrections"
     1. Territoires et transports / Description du territoire / Zones interdites à la prise de vue aérienne (ZIPVA). Zone interdite
-    2. La zone est le camp de Souge.
-    3. C'était un lieu où l'armée allemande fusillait les résistants.
+    2. Le CEA de Bryères le Châtel.
+    3. "Il conçoit les charges nucléaires des armes de la dissuasion et garantit leur sûreté et leur fiabilité, en s’appuyant sur le programme Simulation. Il met son expertise technique au service des Autorités dans la lutte contre la prolifération nucléaire et le terrorisme, et les alerte en cas de séisme, de tsunami ou d'essai nucléaire étranger. Il assure l’ingénierie nucléaire des infrastructures complexes de la Direction des applications militaires, de leur conception jusqu’à leur démantèlement. Il co-développe avec Atos les supercalculateurs, au meilleur niveau mondial, qu’il exploite pour sa mission Défense, et dont sont issus les calculateurs du Très Grand Centre de Calcul (TGCC) que la DIF opère au profit de l’industrie et de la recherche." 
 #}
 
 

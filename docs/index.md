@@ -88,7 +88,7 @@ snt/docs/Introduction/binaire/binaire.md
 
         Comment ces réseaux gèrent les données des utilisateurs et comment mettent-ils en place les services de recommandation/suggestion?
 		
-    === "Localisation /cartographie"
+    === "Localisation - cartographie"
         ![](data/logo_carto.png){align=left}
 
         La cartographie est essentielle pour beaucoup d’activités : agriculture, urbanisme, transports, loisirs, etc. Elle a été révolutionnée par l’arrivée des cartes numériques accessibles depuis les ordinateurs, tablettes et téléphones, bien plus souples à l’usage que les cartes papier.

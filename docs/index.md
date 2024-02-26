@@ -10,12 +10,12 @@
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-	- [Débuter en Python](./Theme0_Bases_de_Python/environnement/)
-    - [cours Photographie numérique](./Theme1_Photographie_numerique/cours/) 
+    - [localisation - Cartographie](./Theme2_Localisation_Cartographie/cours/) 
 
 !!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)
-
+	- [Débuter en Python](./Theme0_Bases_de_Python/environnement/)
+    - [Image numérique](./Theme1_Image_numerique/cours/) 
 
 <!--  --
 snt/docs/Introduction/binaire/binaire.md  
@@ -59,7 +59,7 @@ snt/docs/Introduction/binaire/binaire.md
 
         Comment traiter ces données ?
 		
-    === "Photo numérique"
+    === "Image numérique"
 
         ![](data/logo_photo.png){align=left}
         

@@ -77,7 +77,7 @@ Il existe des sites en ligne qui proposent de manipuler très facilement des coo
 
 !!! example "Exercice 2"
     
-    1. Que trouve-t-on aux coordonnées : 48.58696831023527, 2.2473178113604058 ?
+    1. Que trouve-t-on aux coordonnées : 48.586681, 2.24842 ? Convertir ces coordonnées en DDS, faites les calculs.
 
-    2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ?
+    2. Que peut-on observer aux coordonnées  : 40° 41' 21.296'' N / 74° 2' 40.199'' O ? Convertir ces coordonnées en DD, faites les calculs.
 

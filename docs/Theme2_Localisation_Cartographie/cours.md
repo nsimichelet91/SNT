@@ -63,6 +63,7 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 
 Rappel : il existe des sites qui proposent de manipuler très facilement des coordonnées GPS, comme [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  par exemple.
 
+[ :arrow_right: Activité 1 :  villes du monde](../Activité1_GPS/){ .md-button }
 
 ## 2. GPS
 

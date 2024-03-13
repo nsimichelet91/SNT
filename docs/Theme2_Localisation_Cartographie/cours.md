@@ -103,7 +103,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 
 Intersection de 3 sphères :
-![image](data/gps_inter_sphères.png){: .center width=40%}
+![image](data/gps_inter_sphères.png){: .center width=60%}
 
 
 !!! example "Exercice de calcul de distance"

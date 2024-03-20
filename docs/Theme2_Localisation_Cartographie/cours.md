@@ -42,11 +42,11 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 
 !!! info "Conversions"
 	=== "de DMS vers DD"
-		Prenons par exemple la latitude de Paris. On obtient en degrés $48+\dfrac{51}{60}+\dfrac{24.11}{3600} = 48.856697$
+		Prenons par exemple la latitude de Paris 48°51'24.11" N. On obtient en degrés $48+\dfrac{51}{60}+\dfrac{24.11}{3600} = 48.856697$
 		
 		On compte positivement car la position par rapport à l'Équateur est N pour Nord (on compte négativement pour une position S pour Sud, comme Rio ou Sydney).
 		
-		Prenons par exemple la longitude de New-York. On obtient en degrés $74+\dfrac{0}{60}+\dfrac{21.65}{3600} = 74.006014$
+		Prenons par exemple la longitude de New-York 74°0'21.65" O. On obtient en degrés $74+\dfrac{0}{60}+\dfrac{21.65}{3600} = 74.006014$
 		
 		On compte négativement  car la position par rapport au méridien de Greenwich est O pour Ouest (on compte positivement pour une position E pour Est, comme Paris ou Sydney).
 		
@@ -89,13 +89,13 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 	2. Que reçoit-il d’un satellite ?
 
-	3. Comment calcule-t-il sa distance avec un satellite ? 
+	3. Comment calcule-t-il sa distance d'un satellite ? 
 
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
 
-	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
+	5. Où sont situés, géométriquement, tous les points à la même distance d’un satellite ? 
 
-	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
+	6. Quel objet (élément) géométrique est obtenu par l’intersection de deux sphères ? De trois sphères ?
 
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
 

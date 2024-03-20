@@ -2,7 +2,7 @@
 
 ## 1. Étude de deux articles sur Facebook et Instagram 
 
-[Articles étudiés](../facebook-instagram.pdf){target = "_blank"}
+[Articles étudiés](./facebook-instagram.pdf){target = "_blank"}
 
 
 ## 2. Questions

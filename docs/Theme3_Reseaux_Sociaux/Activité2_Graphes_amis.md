@@ -2,7 +2,7 @@
 
 ## 1. Modéliser les relations par un graphe
 
-Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Facebook) ou aysmétriques («être un follower» sur Twitter).
+Sur les réseaux sociaux, certaines relations sont symétriques («être amis» sur Snapchat) ou aysmétriques («être un follower» sur X ex Twitter).
 
 **Exercice :** Classifiez les réseaux sociaux que vous connaissez en *symétriques* ou *asymétriques*.
 
@@ -14,7 +14,7 @@ Sur les réseaux sociaux, certaines relations sont symétriques («être amis» 
 
 ![image](data/grTW.png){: .center width=30%}
 
-Un graphe réel peut donner des choses [comme ceci](https://github.com/eleurent/twitter-graph/blob/master/examples/friends/friends_label_1080p.jpg){target = "_blank"}
+Un graphe réel peut donner des choses [comme ceci.](https://github.com/eleurent/twitter-graph/blob/master/examples/friends/friends_label_1080p.jpg){target = "_blank"}
  
 ## 2. Pourquoi j'ai moins d'amis que mes amis ?
 
@@ -25,13 +25,13 @@ Basé sur la vidéo de Mickaël Launay :
 Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les interactions qu'on a recensées :
 
 - André est ami avec Béa, Charles, Estelle et Fabrice,
-- Béa est amie avec André, Charles, Denise et Héloïse,
-- Charles est ami avec André, Béa, Denise, Estelle, Fabrice et Gilbert,
+- Béa est amie avec André, Charles, Denise et Yasmina,
+- Charles est ami avec André, Béa, Denise, Estelle, Fabrice et Yanis,
 - Denise est amie avec Béa, Charles et Estelle,
 - Estelle est amie avec André, Charles et Denise,
-- Fabrice est ami avec André, Charles et Gilbert,
-- Gilbert est ami avec Charles et Fabrice,
-- Héloïse est amie avec Béa.
+- Fabrice est ami avec André, Charles et Yanis,
+- Yanis est ami avec Charles et Fabrice,
+- Yasmina est amie avec Béa.
 
 
 **Questions**
@@ -48,7 +48,7 @@ Soit un ensemble d'amis connectés sur un réseau social quelconque. Voici les i
 8. Existe-t-il dans ce graphe deux personnes plus éloignées que de 2 liens ? 
 3. Calculez la moyenne du nombre d'amis dans la totalité de ce réseau social.
 4. Calculez pour chacun personne, la *moyenne du nombre d'amis de leurs amis*.  
-Par exemple : Gilbert ne voit pas tout le graphe, il ne perçoit que Fabrice (3 amis) et Charles (6 amis).  
+Par exemple : Yanis ne voit pas tout le graphe, il ne perçoit que Fabrice (3 amis) et Charles (6 amis).  
 La moyenne des amis de ses amis est de $\frac{3+6}{2}=4,5$ amis.  
 Notez cette moyenne d'une couleur différente.
 4. Calculez le pourcentage de personnes qui ont moins d'amis que le nombre moyen d'amis de leurs amis.

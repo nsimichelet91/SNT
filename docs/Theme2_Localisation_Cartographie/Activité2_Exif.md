@@ -11,11 +11,7 @@
 5. Analysez l’image de la Statue de la Liberté ci-dessous. 
 ![image](data/liberty.jpg){: .center}
 
-
 6. Où cette photo a-t-elle été prise ?
-Vous pourrez utiliser le site [https://www.coordonnees-gps.fr/](https://www.coordonnees-gps.fr/){:target="_blank"}  
-
-
 
 ## 2. La question de la confidentialité et de la fiabilité des données
 

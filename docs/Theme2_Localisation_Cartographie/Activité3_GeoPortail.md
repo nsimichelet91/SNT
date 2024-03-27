@@ -31,7 +31,7 @@ Monsieur X veut acheter une maison au 22 chemin de Chilly à Champlan. Mais il n
 
 
 #### 2.2.3 Drone de loisirs
-Madame Y possède un drone de loisir et souhaite le faire voler au Bois du Pré à Chaiptainville à une altitude d’environ 60 mètres. En a-t-elle le droit ? Sinon à quelle altitude est-elle limitée ? 
+Madame Y possède un drone de loisir et souhaite le faire voler au Bois du Pré à Cheptainville à une altitude d’environ 60 mètres. En a-t-elle le droit ? Sinon à quelle altitude est-elle limitée ? 
 
 
 #### 2.2.4 Bureau de Poste

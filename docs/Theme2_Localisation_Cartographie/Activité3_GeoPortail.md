@@ -21,6 +21,8 @@ Le bouton « Voir tous les fonds de carte » permet d’afficher, classés par t
 
 ### 2.2 Questions
 
+Pour chaque question, faites une capture d'écran du résultat obtenu sur géoportail et collez-la sur votre compte-rendu.
+
 #### 2.2.1 Cadastre
 Recherchez le numéro de la parcelle cadastrale de votre domicile. Mesurez la superficie de cette parcelle. Vous pouvez vous aider du tutoriel vidéo ci-dessous.
 

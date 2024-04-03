@@ -61,7 +61,12 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 		</p>
 
 
-!!! example "Exercice"
+!!! example "Exercice 1"
     === "Énoncé"
         Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
         ![image](data/graph.png){: .center width=60%}
+
+!!! example "Exercice 2"
+    === "Énoncé"
+    	Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
+    	 ![image](data/graph2.png){: .center width=60%}

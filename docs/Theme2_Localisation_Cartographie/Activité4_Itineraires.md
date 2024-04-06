@@ -1,4 +1,4 @@
-# Activité 4 : itinéraires
+# Activité 4 : Itinéraires
 
 Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
 qu’il peut emprunter.

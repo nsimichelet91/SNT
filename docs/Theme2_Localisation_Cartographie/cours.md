@@ -42,11 +42,11 @@ On peut retrouver ces coordonnées dans l'url de Google Maps lors d'une navigati
 
 !!! info "Conversions"
 	=== "de DMS vers DD"
-		Prenons par exemple la latitude de Paris. On obtient en degrés $48+\dfrac{51}{60}+\dfrac{24.11}{3600} = 48.856697$
+		Prenons par exemple la latitude de Paris 48°51'24.11" N. On obtient en degrés $48+\dfrac{51}{60}+\dfrac{24.11}{3600} = 48.856697$
 		
 		On compte positivement car la position par rapport à l'Équateur est N pour Nord (on compte négativement pour une position S pour Sud, comme Rio ou Sydney).
 		
-		Prenons par exemple la longitude de New-York. On obtient en degrés $74+\dfrac{0}{60}+\dfrac{21.65}{3600} = 74.006014$
+		Prenons par exemple la longitude de New-York 74°0'21.65" O. On obtient en degrés $74+\dfrac{0}{60}+\dfrac{21.65}{3600} = 74.006014$
 		
 		On compte négativement  car la position par rapport au méridien de Greenwich est O pour Ouest (on compte positivement pour une position E pour Est, comme Paris ou Sydney).
 		
@@ -72,6 +72,8 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iTfNhcC2vBA?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WoqpQbWdacQ?si=h78kogRLzi2pKdPR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e79tSIpLiDk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
@@ -87,13 +89,13 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 	2. Que reçoit-il d’un satellite ?
 
-	3. Comment calcule-t-il sa distance avec un satellite ? 
+	3. Comment calcule-t-il sa distance d'un satellite ? 
 
 	4. Quel matériel embarqué sur le satellite assure la précision de la mesure du temps ? 
 
-	5. Où sont situés, géométriquement, tout les points à la même distance d’un satellite ? 
+	5. Où sont situés, géométriquement, tous les points à la même distance d’un satellite ? 
 
-	6. Quelle est l’intersection de deux sphères ? De trois sphères ?
+	6. Quel objet (élément) géométrique est obtenu par l’intersection de deux sphères ? De trois sphères ?
 
 	7. Combien de satellites au minimum le smartphone doit-il capter ?
 
@@ -101,7 +103,7 @@ Rappel : il existe des sites qui proposent de manipuler très facilement des coo
 
 
 Intersection de 3 sphères :
-![image](data/3spheres.png){: .center width=40%}
+![image](data/gps_inter_sphères.png){: .center width=60%}
 
 
 !!! example "Exercice de calcul de distance"
@@ -193,66 +195,16 @@ Ainsi toutes les applications ayant recours à la géolocalisation (et elles son
 **OpenStreetMap**  est un service  de  cartographie  libre  et  collaboratif  qui  permet  de visualiser, de modifier et d’utiliser des données géographiques. Il propose également le calcul  d’itinéraire.  Chacun  peut  contribuer  à OpenStreetaMap  en ajoutant  des informations manquantes on en corrigeant des erreurs.
 
 
-
 [ :arrow_right: Activité 3 :  GéoPortail](../Activité3_GeoPortail/){ .md-button }
 
 
-### 3.1 Optimisation d'itinéraire
+### 3.1 L'apport du numérique dans la cartographie : l'optimisation d'itinéraires
+
+Une des conséquences les plus spectaculaires de l'apport du numérique dans la cartographie est le calcul du meilleur itinéraire pour aller d'un point à un autre.
+
+Ce qu'on appelle communément le «guidage GPS» combine à la fois le repérage de l'utilisateur (grâce à une puce GPS), une connaissance cartographique des différents chemins (grâce à la cartographie numérique), ainsi que des calculs mathématiques d'optimisation, effectués par le processeur (du smartphone, de l'ordinateur de bord de la voiture, ...)
 Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
 qu’il peut emprunter.
 
-|  Carte | Graphe |
-|:--:|:--:|
-|![image](data/carte_globale.png){: .center width=60%}|![image](data/graphe_vide.png){: .center width=60%}|
+[ :arrow_right: Activité 4 :  Itinéraires](../Activité4_Itinéraires/){ .md-button }
 
-### 3.1.1 Première métrique
-
-1. Compléter le graphe avec les noms de villes manquants.
-2. Quel est le chemin le plus court ?
-
-### 3.1.2 Seconde métrique
-
-La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
-130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
-autorisée : 80 km/h). 
-
-1. Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
-l’automobiliste roule à la vitesse maximale autorisée.
-2. Quel est le chemin le plus rapide ?
-
-### 3.1.3 Les parcours sur un graphe
-La recherche de «meilleurs» chemins dans un graphe est un problème très actuel des mathématiques. 
-Il y a des choses que l'on sait... et d'autres que l'on cherche encore !
-
-- **Ce que l'on sait :** trouver le plus court chemin d'un point à un autre (algorithme de Dijkstra, voir plus bas)
-- **Ce que l'on ne sait pas encore:** trouver (de manière rapide) le plus court chemin qui passe par tous les points d'un graphe. On appelle cela le problème du [voyageur de commerce](https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce){.target="_blank"}.  
-Si vous le résolvez, un million de $ sont pour vous (et je pense que vous irez les chercher, pas comme [Grigori Perelman](https://fr.wikipedia.org/wiki/Grigori_Perelman){.target="_blank"})
-
-
-### 3.1.3 Comment trouver le chemin le plus court dans un graphe : algorithme de Dijkstra.
-Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logiciels de cartographie ou applications GPS pour vous indiquer le plus court chemin d'un point à un autre, en tenant compte en temps réel des conditions de parcours.
-
-
-!!! example "Exemple"
-	Trouvons le plus court chemin entre le point A et le point H :
-	![image](data/exdijk.png){: .center width=60%}
-
-	??? tip "Correction vidéo"
-		<p align="center">
-		<iframe width="790" height="372" src="https://www.youtube.com/embed/rI-Rc7eF4iw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</p>
-
-
-!!! example "Exercice"
-    === "Énoncé"
-        Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
-        ![image](data/graph.png){: .center width=60%}
-
-
-!!! example "Exercice"
-    === "Énoncé"
-        Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
-        ![image](data/graph2.png){: .center width=60%}
-
-	=== "Correction"
-		![image](data/corr_dk.png){: .center width=60%}

@@ -10,18 +10,21 @@ qu’il peut emprunter.
 ## 1. À la main...
 ### 1.1 Première métrique
 
-1. Compléter le graphe avec les noms de villes manquants.
-2. Quel est le chemin le plus court ?
+!!! example "Exercice 1"
+    === "Énoncé"
+	1. Compléter le graphe avec les noms de villes manquants.
+	2. Quel est le chemin le plus court ?
 
 ### 1.2 Seconde métrique
 
 La route entre Labouheyre et Saugnac-et-Muret est une autoroute (vitesse maximale autorisée :
 130 km/h), alors que toutes les autres routes sont des routes départementales (vitesse maximale
 autorisée : 80 km/h). 
-
-1. Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
-l’automobiliste roule à la vitesse maximale autorisée.
-2. Quel est le chemin le plus rapide ?
+!!! example "Exercice 2"
+    === "Énoncé"
+	1. Compléter le graphe ci-dessus en indiquant entre chaque ville le temps de parcours, si
+	l’automobiliste roule à la vitesse maximale autorisée.
+	2. Quel est le chemin le plus rapide ?
 
 {#
 ??? tip "corrections"
@@ -35,8 +38,10 @@ l’automobiliste roule à la vitesse maximale autorisée.
 
 ## 2. Via des sites de calculs d'itinéraires
 
-1. Comparer les résultats donnés par GéoPortail, GoogleMaps et ViaMichelin pour ce trajet.
-2. Quels sont les critères proposés par ces sites pour optimiser le trajet ?
+!!! example "Exercice 3"
+    === "Énoncé"
+	1. Comparer les résultats donnés par GéoPortail, GoogleMaps et ViaMichelin pour ce trajet.
+	2. Quels sont les critères proposés par ces sites pour optimiser le trajet ?
 
 
 ## 3. L'apport des mathématiques
@@ -61,7 +66,12 @@ Cet algorithme (ou plutôt son optimisation A*) est utilisé par tous les logici
 		</p>
 
 
-!!! example "Exercice"
+!!! example "Exercice 4"
     === "Énoncé"
         Donner le plus court chemin pour aller de E à F dans le graphe ci-dessous :
         ![image](data/graph.png){: .center width=60%}
+
+!!! example "Exercice 5"
+    === "Énoncé"
+    	Donner le plus court chemin pour aller de A à G dans le graphe ci-dessous :
+    	 ![image](data/graph2.png){: .center width=60%}

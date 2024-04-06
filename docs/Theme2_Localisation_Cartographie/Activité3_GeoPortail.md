@@ -21,6 +21,9 @@ Le bouton « Voir tous les fonds de carte » permet d’afficher, classés par t
 
 ### 2.2 Questions
 
+!!! info
+    Pour chaque question, faites une capture d'écran du résultat obtenu sur géoportail et collez-la sur votre compte-rendu.
+
 #### 2.2.1 Cadastre
 Recherchez le numéro de la parcelle cadastrale de votre domicile. Mesurez la superficie de cette parcelle. Vous pouvez vous aider du tutoriel vidéo ci-dessous.
 
@@ -31,7 +34,7 @@ Monsieur X veut acheter une maison au 22 chemin de Chilly à Champlan. Mais il n
 
 
 #### 2.2.3 Drone de loisirs
-Madame Y possède un drone de loisir et souhaite le faire voler au Bois du Pré à Chaiptainville à une altitude d’environ 60 mètres. En a-t-elle le droit ? Sinon à quelle altitude est-elle limitée ? 
+Madame Y possède un drone de loisir et souhaite le faire voler au Bois du Pré à Cheptainville à une altitude d’environ 60 mètres. En a-t-elle le droit ? Sinon à quelle altitude est-elle limitée ? 
 
 
 #### 2.2.4 Bureau de Poste

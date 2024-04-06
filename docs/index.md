@@ -10,7 +10,7 @@
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
-    - [localisation - Cartographie](./Theme2_Localisation_Cartographie/cours/) 
+    - [Localisation - Cartographie](./Theme2_Localisation_Cartographie/cours/) 
 
 !!! note "*Anciens thèmes traités*"
     - [Découverte du binaire](./Introduction/binaire/binaire)

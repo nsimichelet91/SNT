@@ -7,11 +7,10 @@
 ### 1.1 Modalités
 - par groupe de 2 ou 3 élèves
 - deux semaines de préparation : 
-    - 208 GA et GB : l'exposé sera à présenter le **mercredi 24 mai**.
 - diaporama obligatoire. Privilégiez les solutions collaboratives (Google Slides, Canva, Powerpoint, Impress, ou tout ce que vous voulez)
 
 ### 1.2 Restitution 
-- Exposé collectif de 10 minutes maximum, appuyé sur le diaporama.
+- Exposé collectif de 10 minutes maximum, illustré par le diaporama.
 - Réponses aux questions du professeur et du public.
 
 ### 1.3 Évaluation
@@ -22,7 +21,7 @@
 
 Liste non exhaustive, vous pouvez proposer un autre sujet.
 
-1. Twitter
+1. X ex Twitter
 2. Snapchat
 3. Instagram
 4. TikTok
@@ -59,24 +58,5 @@ Voici quelques problématiques incontournables.
 - N'abusez pas de chiffres !
 - Pensez à faire des graphiques et des schémas
 - Une idée =  une diapo
+- Très peu ou pas de texte dans les diapos, nous ne devons pas lire le diapo mais vous écouter.
 
-
-### 4. Affectation des exposés
-
-!!! note "208 GA "
-    - **Mercredi 24 mai**
-        - Groupe A : Snapchat
-        - Groupe B : Instagram
-        - Groupe C : Pinterest
-        - Groupe D : Discord
-        - Groupe E : Twitch
-        - Groupe F : Webtoons
-
-!!! note "208 GB "       
-    - **Mercredi 24 mai**
-        - Groupe A : Discord
-        - Groupe B : Instagram
-        - Groupe C : TikTok
-        - Groupe D : Twitter
-        - Groupe E : Snapchat
-        - Groupe F : YouTube

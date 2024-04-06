@@ -206,5 +206,5 @@ Ce qu'on appelle communément le «guidage GPS» combine à la fois le repérage
 Un automobiliste landais veut se rendre de Lüe à Moustey. Nous allons étudier les différents trajets
 qu’il peut emprunter.
 
-[ :arrow_right: Activité 4 :  Itinéraires](../Activité4_Itinéraires/){ .md-button }
+[ :arrow_right: Activité 4 :  Itinéraires](../Activité4_Itineraires/){ .md-button }
 

@@ -1,12 +1,12 @@
 
-{#
+
 !!! abstract ":star: Actualités :star:"
     - Bonne rentrée à toutes et à tous !
-#}
+
 
 :hourglass: Pour patienter : découverte de Python avec [py-rates](https://py-rates.fr/){. target="_blank"}
 
-
+<!-- 
 ## Thème en cours : Photographie numérique
 
 - :star: Séance actuelle :star: : 
@@ -17,7 +17,7 @@
 	- [Débuter en Python](./Theme0_Bases_de_Python/environnement/)
     - [Image numérique](./Theme1_Image_numerique/cours/) 
 
-<!--  --
+ --
 snt/docs/Introduction/binaire/binaire.md  
 ??? note "*Anciens thèmes traités*"
     - Exposés : [Activité 1](./Theme3_Reseaux_Sociaux/Activité1_Exposés/){. target = "_blank"}

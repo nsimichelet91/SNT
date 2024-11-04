@@ -6,4 +6,4 @@
 ENT ➡️ Médiacentre ➡️ PIX
 
 ## 1. Parcours n°1 : parcours de rentrée 2nde
-Code du parcours : **HMMYFW193**
+Code du parcours : **DXSRJJ649**

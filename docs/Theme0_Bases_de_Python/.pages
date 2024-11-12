@@ -1,7 +1,8 @@
 nav:
-	- De Scratch à Python : de_scratch_a_python.md
-	- Environnement de travail : environnement.md
-	- Cours de Python : cours.md
+
+- De Scratch à Python : de_scratch_a_python.md
+- Environnement de travail : environnement.md
+- Cours de Python : cours.md
 
 title: Débuter en Python
 

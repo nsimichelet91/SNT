@@ -1,5 +1,7 @@
 # HTML-CSS
 
+![image](data/html_css.webp){: .center}
+
 Les pages Web sont écrites dans le langage HTML (HyperText Language Markup, soit « langage de balisage d'hypertexte ») qui est un langage de balises (markup signifie balise en anglais). Dans cette séance, vous allez découvrir ce qu'est une balise puis vous écrirez votre première page HTML.
 
 !!! info
@@ -7,10 +9,14 @@ Les pages Web sont écrites dans le langage HTML (HyperText Language Markup, soi
 
 
 
-## TP1
+## Activité 1
+[ici](https://capytale2.ac-paris.fr/web/c/cd32-3672599){: target = "_blank"}
 
-## TP2
+## Activité 2
+[ici](https://capytale2.ac-paris.fr/web/c/eba1-3675894){: target = "_blank"}
 
-## TP3
+
+## Activité 3
+[ici](https://capytale2.ac-paris.fr/web/c/63f6-3676180){: target = "_blank"}
 
 

@@ -14,7 +14,6 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 ## Activité 2
 [ici](https://capytale2.ac-paris.fr/web/c/eba1-3675894){: target = "_blank"}
 
-
 ## Activité 3
 [ici](https://capytale2.ac-paris.fr/web/c/63f6-3676180){: target = "_blank"}
 

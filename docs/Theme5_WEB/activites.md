@@ -22,21 +22,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 !!! info
 	- Voici les attendus pour l'activité 3 :  
-	Votre mini site doit contenir 2 pages au minimum, dans lesquelles je veux :  
-		
-		Vu dans les activités 1 et 2 : 
-		- des titres h1 et h2,
-		- des paragraphes
-		- des images 
-		- les sources des images utilisées sont mentionnées et appartiennent au domaine public ou sont en licence libre
-		- des liens (navigation entre vos pages)
-		- du style (fichier CSS)
-		
-		Non vu mais à rechercher dans les ressources données dans l'activité 3 :
-		- une liste ordonnée
-		- une liste  non-ordonnée
-		- un lien vers une page du web
-		- une vidéo (source mentionnée)
+	Votre mini site doit contenir 2 pages au minimum, dans lesquelles doivent figurer les éléments suivants :  
 
 	| Élément à vérifier                               | Vu dans les activités 1 et 2 | Non vu mais à rechercher dans les ressources données dans l'activité 3 | Barème |
 	|-------------------------------------------------|------------------------------|-------------------------------------------------------------------------|--------|

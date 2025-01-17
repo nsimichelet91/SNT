@@ -37,7 +37,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 	| **Lien vers une page du web**                   |                              | ✅                                                                      | 5/5    |
 	| **Vidéo (source mentionnée)**                   |                              | ✅                                                                      | 5/5    |
 
-	## Explications : 
+	### Explications : 
 
 	1. **Titres h1 et h2**  
 	   Les titres sont utilisés pour structurer le contenu d'une page. Le titre principal est généralement un `<h1>`, et les sous-titres sont des `<h2>`, permettant une hiérarchisation claire des informations.    

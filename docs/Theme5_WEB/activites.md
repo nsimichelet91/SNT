@@ -18,6 +18,8 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 ## Activité 3
 [ici](https://capytale2.ac-paris.fr/web/c/63f6-3676180){: target = "_blank"}
 
+### Attendu et barême de l'activité 3 :
+
 !!! info
 	- Voici les attendus pour l'activité 3 :  
 	Votre mini site doit contenir 2 pages au minimum, dans lesquelles je veux :  
@@ -53,7 +55,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	1. **Titres h1 et h2**  
 	   Les titres sont utilisés pour structurer le contenu d'une page. Le titre principal est généralement un `<h1>`, et les sous-titres sont des `<h2>`, permettant une hiérarchisation claire des informations.    
-	   **Exemple :**  
+	   *Exemple :*  
 		 ```html
 		 <h1>Titre Principal</h1>
 		 <h2>Sous-Titre</h2>
@@ -61,28 +63,28 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	2. **Paragraphes**  
 	   Les paragraphes permettent de structurer le texte en blocs. Chaque paragraphe est entouré par la balise `<p>`.  
-	   **Exemple :**  	   
+	   *Exemple :*  	   
 		 ```html
 		 <p>Ceci est un paragraphe de texte.</p>
 		 ```
 
 	3. **Images**  
 	   Les images peuvent être insérées avec la balise `<img>`, et il est important de mentionner la source des images, surtout si elles proviennent du domaine public ou sont sous licence libre.  
-	   **Exemple :**  
+	   *Exemple :*  
 		 ```html
 		 <img src="image.jpg" alt="Description de l'image">
 		 ```
 
 	4. **Sources des images utilisées (domaine public ou licence libre)**  
 	   Il est nécessaire de s'assurer que les images utilisées proviennent du domaine public ou sont sous licence libre. Cela garantit qu'elles peuvent être utilisées sans violer les droits d’auteur.  
-	   **Exemple de source mentionnée :**  
+	   *Exemple de source mentionnée :*  
 		 ```html
 		 <p>Image fournie par <a href="https://...">source</a> sous licence Creative Commons.</p>
 		 ```
 
 	5. **Liens (navigation entre pages)**  
 	   Les liens permettent de naviguer entre différentes pages ou vers des ressources externes. On utilise la balise `<a>` pour insérer des liens.  
-	   **Exemple :**  
+	   *Exemple :*  
 		 ```html
 		 <a href="page.html">Cliquez ici pour accéder à la page suivante</a>
 		 ```
@@ -93,7 +95,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	7. **Liste ordonnée**  
 	   Une liste ordonnée est utilisée pour présenter des éléments dans un ordre précis, généralement numéroté. Elle est créée avec la balise `<ol>`, et chaque élément de la liste est entouré de `<li>`.  
-	   **Exemple :**  
+	   *Exemple :*  
 		 ```html
 		 <ol>
 		   <li>Premier élément</li>
@@ -103,7 +105,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	8. **Liste non-ordonnée**  
 	   Une liste non-ordonnée est utilisée pour présenter des éléments sans ordre particulier, avec des puces. Elle est créée avec la balise `<ul>`, et chaque élément de la liste est entouré de `<li>`.  
-	   **Exemple :**  
+	   *Exemple :*  
 	   
 		 ```html
 		 <ul>
@@ -114,14 +116,14 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	9. **Lien vers une page du web**  
 	   Un lien vers une page du web permet d’accéder à des ressources externes. Il est inséré à l’aide de la balise `<a>` avec l'attribut `href` pointant vers l'URL souhaitée.  
-	   **Exemple :**  
+	   *Exemple :*  
 		 ```html
 		 <a href="https://www.wikipedia.com">Visitez notre site</a>
 		 ```
 
 	10. **Vidéo (source mentionnée)**  
 		Les vidéos peuvent être insérées avec la balise `<video>`, et il est essentiel de mentionner la source de la vidéo, notamment si elle provient d'une plateforme externe.  
-		**Exemple :**  
+		*Exemple :*  
 		  ```html
 		  <video src="video.mp4" controls>
 			Votre navigateur ne supporte pas les vidéos HTML5.

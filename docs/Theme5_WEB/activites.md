@@ -19,9 +19,10 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 [ici](https://capytale2.ac-paris.fr/web/c/63f6-3676180){: target = "_blank"}
 
 !!! info
-	Voici les attendus pour l'activité 3 :
-	Votre mini site doit contenir 2 pages au minimum, dans lesquelles je veux :
-		vu dans les activités 1 et 2 : 
+	- Voici les attendus pour l'activité 3 :  
+	Votre mini site doit contenir 2 pages au minimum, dans lesquelles je veux :  
+		
+		Vu dans les activités 1 et 2 : 
 		- des titres h1 et h2,
 		- des paragraphes
 		- des images 
@@ -29,7 +30,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 		- des liens (navigation entre vos pages)
 		- du style (fichier CSS)
 		
-		non vu mais à rechercher dans les ressources données dans l'activité 3 :
+		Non vu mais à rechercher dans les ressources données dans l'activité 3 :
 		- une liste ordonnée
 		- une liste  non-ordonnée
 		- un lien vers une page du web
@@ -40,8 +41,7 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 	| **Titres h1 et h2**                             | ✅                            |                                                                         | 5/5    |
 	| **Paragraphes**                                 | ✅                            |                                                                         | 5/5    |
 	| **Images**                                      | ✅                            |                                                                         | 5/5    |
-	| **Sources des images utilisées 
-	(domaine public ou licence libre)**               | ✅                            |                                                                         | 5/5    |
+	| **Sources des images utilisées (domaine public ou licence libre)**| ✅                            |                                                                         | 5/5    |
 	| **Liens (navigation entre pages)**              | ✅                            |                                                                         | 5/5    |
 	| **Style (toutes les techniques vues; fichier CSS)**                         | ✅                            |                                                                         | 5/5    |
 	| **Liste ordonnée**                              |                              | ✅                                                                      | 5/5    |

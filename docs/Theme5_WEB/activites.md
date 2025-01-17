@@ -33,10 +33,11 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 	| **Liens (navigation entre pages)**              | ✅                            |                                                                         | 2pts     |
 	| **Style (toutes les techniques vues; fichier CSS)**  | ✅                       |                                                                         | 3pts    |
 	| **Utilisation de classes (CSS)**                | ✅                            |                                                                         | 1pts     |
-	| **Liste ordonnée**                              |                              | ✅                                                                      | 2pts     |
-	| **Liste non-ordonnée**                          |                              | ✅                                                                      | 2pts     |
+	| **Liste ordonnée**                              |                              | ✅                                                                      | 1pt     |
+	| **Liste non-ordonnée**                          |                              | ✅                                                                      | 1pt     |
 	| **Lien vers une page du web**                   |                              | ✅                                                                      | 1pt     |
 	| **Vidéo (source mentionnée)**                   |                              | ✅                                                                      | 2pts     |
+	| **Intéret général du site, les plus, originalité, esthétique générale, ...**                   |                              |                                                                       | 2pts     |
 
 	### Explications : 
 

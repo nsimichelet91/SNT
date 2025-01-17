@@ -59,44 +59,41 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 		 <h2>Sous-Titre</h2>
 		 ```
 
-	2. **Paragraphes**
+	2. **Paragraphes**  
 	   Les paragraphes permettent de structurer le texte en blocs. Chaque paragraphe est entouré par la balise `<p>`.  
-	   **Exemple :**  
-	   
-	   Ceci est un paragraphe de texte.
-	   
+	   **Exemple :**  	   
 		 ```html
 		 <p>Ceci est un paragraphe de texte.</p>
 		 ```
 
-	3. **Images**
-	   Les images peuvent être insérées avec la balise `<img>`, et il est important de mentionner la source des images, surtout si elles proviennent du domaine public ou sont sous licence libre.
-	   **Exemple :**
+	3. **Images**  
+	   Les images peuvent être insérées avec la balise `<img>`, et il est important de mentionner la source des images, surtout si elles proviennent du domaine public ou sont sous licence libre.  
+	   **Exemple :**  
 		 ```html
 		 <img src="image.jpg" alt="Description de l'image">
 		 ```
 
-	4. **Sources des images utilisées (domaine public ou licence libre)**
-	   Il est nécessaire de s'assurer que les images utilisées proviennent du domaine public ou sont sous licence libre. Cela garantit qu'elles peuvent être utilisées sans violer les droits d’auteur.
-	   **Exemple de source mentionnée :**
+	4. **Sources des images utilisées (domaine public ou licence libre)**  
+	   Il est nécessaire de s'assurer que les images utilisées proviennent du domaine public ou sont sous licence libre. Cela garantit qu'elles peuvent être utilisées sans violer les droits d’auteur.  
+	   **Exemple de source mentionnée :**  
 		 ```html
 		 <p>Image fournie par <a href="https://...">source</a> sous licence Creative Commons.</p>
 		 ```
 
-	5. **Liens (navigation entre pages)**
-	   Les liens permettent de naviguer entre différentes pages ou vers des ressources externes. On utilise la balise `<a>` pour insérer des liens.
-	   **Exemple :**
+	5. **Liens (navigation entre pages)**  
+	   Les liens permettent de naviguer entre différentes pages ou vers des ressources externes. On utilise la balise `<a>` pour insérer des liens.  
+	   **Exemple :**  
 		 ```html
 		 <a href="page.html">Cliquez ici pour accéder à la page suivante</a>
 		 ```
 
-	6. **Style (fichier CSS)**
-	   Le fichier CSS permet de définir le style de la page (couleurs, polices, espacements, etc.).
+	6. **Style (fichier CSS)**  
+	   Le fichier CSS permet de définir le style de la page (couleurs, polices, espacements, etc.).  
 	   
 
-	7. **Liste ordonnée**
-	   Une liste ordonnée est utilisée pour présenter des éléments dans un ordre précis, généralement numéroté. Elle est créée avec la balise `<ol>`, et chaque élément de la liste est entouré de `<li>`.
-	   **Exemple :**
+	7. **Liste ordonnée**  
+	   Une liste ordonnée est utilisée pour présenter des éléments dans un ordre précis, généralement numéroté. Elle est créée avec la balise `<ol>`, et chaque élément de la liste est entouré de `<li>`.  
+	   **Exemple :**  
 		 ```html
 		 <ol>
 		   <li>Premier élément</li>
@@ -104,9 +101,9 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 		 </ol>
 		 ```
 
-	8. **Liste non-ordonnée**
-	   Une liste non-ordonnée est utilisée pour présenter des éléments sans ordre particulier, avec des puces. Elle est créée avec la balise `<ul>`, et chaque élément de la liste est entouré de `<li>`.
-	   **Exemple :**
+	8. **Liste non-ordonnée**  
+	   Une liste non-ordonnée est utilisée pour présenter des éléments sans ordre particulier, avec des puces. Elle est créée avec la balise `<ul>`, et chaque élément de la liste est entouré de `<li>`.  
+	   **Exemple :**  
 	   
 		 ```html
 		 <ul>
@@ -115,16 +112,16 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 		 </ul>
 		 ```
 
-	9. **Lien vers une page du web**
-	   Un lien vers une page du web permet d’accéder à des ressources externes. Il est inséré à l’aide de la balise `<a>` avec l'attribut `href` pointant vers l'URL souhaitée.
-	   **Exemple :**
+	9. **Lien vers une page du web**  
+	   Un lien vers une page du web permet d’accéder à des ressources externes. Il est inséré à l’aide de la balise `<a>` avec l'attribut `href` pointant vers l'URL souhaitée.  
+	   **Exemple :**  
 		 ```html
 		 <a href="https://www.wikipedia.com">Visitez notre site</a>
 		 ```
 
-	10. **Vidéo (source mentionnée)**
-		Les vidéos peuvent être insérées avec la balise `<video>`, et il est essentiel de mentionner la source de la vidéo, notamment si elle provient d'une plateforme externe.
-		**Exemple :**
+	10. **Vidéo (source mentionnée)**  
+		Les vidéos peuvent être insérées avec la balise `<video>`, et il est essentiel de mentionner la source de la vidéo, notamment si elle provient d'une plateforme externe.  
+		**Exemple :**  
 		  ```html
 		  <video src="video.mp4" controls>
 			Votre navigateur ne supporte pas les vidéos HTML5.

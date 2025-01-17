@@ -26,16 +26,17 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 
 	| Élément à vérifier                               | Vu dans les activités 1 et 2 | Non vu mais à rechercher dans les ressources données dans l'activité 3 | Barème |
 	|-------------------------------------------------|------------------------------|-------------------------------------------------------------------------|--------|
-	| **Titres h1 et h2**                             | ✅                            |                                                                         | 5/5    |
-	| **Paragraphes**                                 | ✅                            |                                                                         | 5/5    |
-	| **Images**                                      | ✅                            |                                                                         | 5/5    |
-	| **Sources des images utilisées (domaine public ou licence libre)**| ✅                            |                                                                         | 5/5    |
-	| **Liens (navigation entre pages)**              | ✅                            |                                                                         | 5/5    |
-	| **Style (toutes les techniques vues; fichier CSS)**                         | ✅                            |                                                                         | 5/5    |
-	| **Liste ordonnée**                              |                              | ✅                                                                      | 5/5    |
-	| **Liste non-ordonnée**                          |                              | ✅                                                                      | 5/5    |
-	| **Lien vers une page du web**                   |                              | ✅                                                                      | 5/5    |
-	| **Vidéo (source mentionnée)**                   |                              | ✅                                                                      | 5/5    |
+	| **Titres h1 et h2**                             | ✅                            |                                                                         | 2pts   |
+	| **Paragraphes**                                 | ✅                            |                                                                         | 2pts    |
+	| **Images**                                      | ✅                            |                                                                         | 2pts     |
+	| **Sources des images utilisées (domaine public ou licence libre)**| ✅          |                                                                         | 1pt     |
+	| **Liens (navigation entre pages)**              | ✅                            |                                                                         | 2pts     |
+	| **Style (toutes les techniques vues; fichier CSS)**  | ✅                       |                                                                         | 3pts    |
+	| **Utilisation de classes (CSS)**                | ✅                            |                                                                         | 1pts     |
+	| **Liste ordonnée**                              |                              | ✅                                                                      | 2pts     |
+	| **Liste non-ordonnée**                          |                              | ✅                                                                      | 2pts     |
+	| **Lien vers une page du web**                   |                              | ✅                                                                      | 1pt     |
+	| **Vidéo (source mentionnée)**                   |                              | ✅                                                                      | 2pts     |
 
 	### Explications : 
 

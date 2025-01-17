@@ -52,8 +52,12 @@ Les feuilles de style en cascade, généralement appelées CSS de l'anglais Casc
 	## Explications
 
 	1. **Titres h1 et h2**
-	   - Les titres sont utilisés pour structurer le contenu d'une page. Le titre principal est généralement un `<h1>`, et les sous-titres sont des `<h2>`, permettant une hiérarchisation claire des informations.
-	   - Exemple : 
+	   Les titres sont utilisés pour structurer le contenu d'une page. Le titre principal est généralement un `<h1>`, et les sous-titres sont des `<h2>`, permettant une hiérarchisation claire des informations.  
+	   Exemple :  
+	   
+	   # Titre principal
+	   ## Sous-titre
+	   
 		 ```html
 		 <h1>Titre Principal</h1>
 		 <h2>Sous-Titre</h2>
